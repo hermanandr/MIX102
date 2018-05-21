@@ -17,7 +17,54 @@
     height: 100%;
     color: #fff;
     background-color: #000000;
-    opacity: 1;
+    opacity: 0.8;
+}
+/* 
+.vidMain {
+    position: relative;
+    overflow: hidden;
+    height: 70vh;
+    width: 100%;
+    border: 1px solid yellow;
+}
+*/
+/* .vidMain>video {
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    right: -100%;
+    bottom: -100%;
+    top: -100%;
+    left: -100%;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+} */
+
+.fullSection {
+    height: 100vh;
+}
+
+.vidMain {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.byLine {
+    position: absolute;
+    color: #fff;
+    text-align: center
+}
+    
+
+.centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Avstander */
@@ -33,10 +80,10 @@
 p {
     font-size: 16px;
 }
-.p2 {
+p2 {
     font-size: 20px;
 }
-.p3 {
+p3 {
     font-size: 84px;
 }
 
@@ -49,18 +96,19 @@ h2 {
 
 /* Bakgrunnsbilder */
 .img1 {
-    background-image: url('../images/vinduskatt.jpg');
+    background-image: url('../images/kattiBy.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat; 
 }
 
 .img2 {
-    background-image: url('');
+    background-image: url('../images/hender.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat; 
 }
+
 
 /* Små mobilenheter */
 @media (min-width: 320px) {
@@ -83,5 +131,6 @@ h2 {
 /* Desktop */
 @media (min-width: 991px) {
 
+    
 
 }
