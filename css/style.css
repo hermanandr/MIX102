@@ -46,6 +46,10 @@
     height: 100vh;
 }
 
+.basicSection {
+    position: relative;
+}
+
 .vidMain {
     position: absolute;
     right: 0;
@@ -58,8 +62,9 @@
     position: absolute;
     color: #fff;
     text-align: center;
+    width: 80%;
     top: 600px;
-    margin-left: 25vw;
+    left: 10%;
 }
 
 .section2 {

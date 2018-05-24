@@ -6,6 +6,7 @@ var scrollArea = 1000 - windowHeight;
 
 var title = document.getElementById('title');
 var titleHeight = document.getElementById('title').style.top;
+var section1 = document.getElementById('sec1');
 
 /* var square1 = document.getElementById('en');
 var square2 = document.getElementById('to'); */
