@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
     <!-- FONTER-->
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -15,35 +18,47 @@
 
 <body>
 
-    <section class="fullSection">
 
+
+    <section class="fullSection">
         <video autoplay muted loop class="vidMain">
             <source src="video/topVid.mp4" type="video/mp4">
         </video>
+        <section id="intro" class="wrapper">
+            <h1 class="mainTitle">DE NYE HJEMLØSE</h1>
+            <h2 class="subTitle">ALENE I BERGENS GATER</h2>
+        </section>
+    </section>
 
-        <div class="container" id="title">
-         <h1>DE NYE HJEMLØSE</h1>
+    <section class="section2">
+        <div class="byLine pt pb container">
+            <p1>De går i gatene, klatrer i trærne, roter i søppelspann og stirrer på deg med smale øyne. I Bergen
+                <br> blir det bare flere og flere av de, de nye hjemløse - kattene.</p1>
+            <div class="authors">
+            </div>
+            <p4>
+                <b>TEKST</b> Håkon Dalsbø og Malene Thomassen
+                <br>
+                <b>DESIGN</b> Herman Andreassen, Liva Snilstveit Hoem og Vegard Opedal </p4>
         </div>
     </section>
 
-    <section class = "section2">
-      <div class="byLine pt pb container">
-      <p1>De går i gatene, klatrer i trærne, roter i søppelspann og stirrer på deg med smale øyne. I Bergen <br> blir det bare flere og flere av de, de nye hjemløse - kattene.</p1>
-      <div class="authors">
-      </div>
-      <p4> <b>TEKST</b> Håkon Dalsbø og Malene Thomassen <br>
-           <b>DESIGN</b> Herman Andreassen, Liva Snilstveit Hoem og Vegard Opedal </p4>
-         </div>
+    <section class="fullSection img1">
+        <div id="explosion" class="wrapper">
+            <p class="explosion-byline">Here's an example of 16 elements scaling, fading and moving at once.</p>
+        </div>
     </section>
 
-
-
-    <section class="basicSection img1" id="sec1">
-        <div class="black">
+    <section class="basicSection img1">
+        <div id="explosion" class="wrapper">
             <div class="container pt pb">
-                <p2>I Norge finnes det rundt <br>
-                <span class = "big"><b>750 000</b></span> <br>
-                ID-merkede katter og er et av de mest populære kjæledyrene. I tillegg til disse kommer alle de hjemløse og eierløse kattene.</p2>
+                <p2>I Norge finnes det rundt
+                    <br>
+                    <span class="big">
+                        <b>750 000</b>
+                    </span>
+                    <br> ID-merkede katter og er et av de mest populære kjæledyrene. I tillegg til disse kommer alle de hjemløse
+                    og eierløse kattene.</p2>
             </div>
         </div>
 
@@ -52,8 +67,11 @@
     <section class="basicSection img2">
         <div class="black">
             <div class="container pt pb">
-                <p2>I 2017 hjalp Dyrebeskyttelsen Bergen omtrent</p2><br>
-                <span class = "big"><b>510 katter</b></span>
+                <p2>I 2017 hjalp Dyrebeskyttelsen Bergen omtrent</p2>
+                <br>
+                <span class="big">
+                    <b>510 katter</b>
+                </span>
             </div>
         </div>
     </section>
@@ -123,7 +141,10 @@
         </div>
     </section>
 
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="js/picasso.js"></script>
 </body>
 
 </html>
