@@ -16,7 +16,7 @@ window.addEventListener('scroll', function() {
     var scrollTop = window.pageYOffset || window.scrollTop;
     var scrollPercent = scrollTop/scrollArea || 0;
 
-    title.style.top = 600 - scrollPercent*window.innerHeight + 'px';
+    title.style.top = 400 - scrollPercent*window.innerHeight/10 + 'px';
 
     /*
     square1.style.top = scrollPercent*window.innerHeight + 'px';
