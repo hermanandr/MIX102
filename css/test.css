@@ -117,7 +117,7 @@ body {
   .square-1 {
     width: 100px;
     height: 100px;
-    background: red;
+    background: black;
     top: 600px;
   }
   
@@ -125,7 +125,13 @@ body {
     width: 120px;
     height: 120px;
     background: black;
-    left: 800px;
     top: 800px;
   }
   
+  #en{
+    left: 100px;
+  }
+
+  #to{
+    left: 800px;
+  }
