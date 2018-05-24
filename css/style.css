@@ -19,7 +19,7 @@
     background-color: #000000;
     opacity: 0.8;
 }
-/* 
+/*
 .vidMain {
     position: relative;
     overflow: hidden;
@@ -50,16 +50,26 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
+}
+
+.title {
+    position: absolute;
+    color: #fff;
+    text-align: center
+
 }
 
 .byLine {
     position: absolute;
     color: #fff;
-    text-align: center
+    text-align: center;
+    background-color: #000000;
+
+
 }
-    
+
 .centerFlex {
     display: flex;
     justify-content: center;
@@ -74,9 +84,15 @@
     padding-bottom: 48px;
 }
 
+.authors {
+  padding: 50px;
+  text-align: left;
+}
+
 /* Fonter */
 
 p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 p2 {
@@ -84,6 +100,11 @@ p2 {
 }
 p3 {
     font-size: 84px;
+}
+
+p4 {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 h1 {
@@ -98,14 +119,14 @@ h2 {
     background-image: url('../images/kattiBy.jpg');
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .img2 {
     background-image: url('../images/hender.jpg');
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 /* Små mobilenheter */
@@ -129,6 +150,6 @@ h2 {
 /* Desktop */
 @media (min-width: 991px) {
 
-    
+
 
 }
