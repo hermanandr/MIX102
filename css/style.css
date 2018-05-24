@@ -54,10 +54,20 @@
     min-height: 100%;
 }
 
-.byLine {
+.title {
     position: absolute;
     color: #fff;
     text-align: center
+
+}
+
+.byLine {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    background-color: #000000;
+
+    
 }
 
 .centerFlex {
@@ -78,7 +88,7 @@
 
 p {
     font-family: 'Open Sans', sans-serif;
-    
+
     font-size: 16px;
 }
 p2 {
