@@ -84,11 +84,19 @@
     padding-bottom: 48px;
 }
 
+.authors {
+  padding: 50px;
+  text-align: left;
+}
+
 /* Fonter */
 
 p {
+<<<<<<< HEAD
     font-family: 'Open Sans', sans-serif;
 
+=======
+>>>>>>> 37c7ea7fd7a3d596dc043f6c2ab0a45e27569dd1
     font-size: 16px;
 }
 p2 {
@@ -98,8 +106,12 @@ p3 {
     font-size: 84px;
 }
 
+p4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 h1 {
-    font-family: 'Bowlby One';
     font-size: 72px;
 }
 h2 {
