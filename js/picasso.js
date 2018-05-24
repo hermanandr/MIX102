@@ -33,17 +33,16 @@
             ]
           } , 
           {
-            'wrapper' : '#explosion',
+            'wrapper' : '#parallSection',
             'duration' : '150%',
             'animations' :  [
               {
-                'selector'    : '.explosion-byline',
-                'translateY'  : '-25%',
-                'opacity'     : [0, 1.75] // hack to accelrate opacity speed
-              } , {
-                'selector'    : '#domExplosionList',
-                'translateY'  : '-70%',
-                'opacity'     : [0, 1] // hack to accelrate opacity speed
+                'selector'    : '.scrollText',
+                'translateY'  : '-90%',
+                'opacity'     : [0, 2] // hack to accelrate opacity speed
+              }, {
+                'selector'    : '.black',
+                'opacity'     : [0, 0.8] // hack to accelrate opacity speed
               }
             ]
           } , 
