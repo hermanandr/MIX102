@@ -1,5 +1,4 @@
-
-
+/* Globale variabler */
 var container = document.getElementById('container');
 var windowHeight = window.innerHeight;
 var windowWidth = window.innerWidth;
@@ -7,6 +6,7 @@ var scrollArea = 1000 - windowHeight;
 
 var title = document.getElementById('title');
 var titleHeight = document.getElementById('title').style.top;
+
 /* var square1 = document.getElementById('en');
 var square2 = document.getElementById('to'); */
 
@@ -18,8 +18,45 @@ window.addEventListener('scroll', function() {
 
     title.style.top = 400 - scrollPercent*window.innerHeight/10 + 'px';
 
-    /*
-    square1.style.top = scrollPercent*window.innerHeight + 'px';
-    square1.style.left = scrollPercent*window.innerWidth + 'px';
-    square2.style.left = 800 - scrollPercent*window.innerWidth*0.6 + 'px'; */
 });
+
+
+
+/* 
+    when element is visible {
+        move element = scrollPercent*window.innerHeight + 'px' - parentScrollPos;
+    }
+
+*/
+
+/* var scrollEventHandler = function() {
+	if(isScrolledIntoView(document.getElementById('text'))) {
+        document.getElementById('text').style.color = "blue";
+  } else {
+    document.getElementById('text').style.color = "red";
+  }  
+}
+
+
+function isScrolledIntoView(el) {
+    var elemTop = el.getBoundingClientRect().top;
+    var elemBottom = el.getBoundingClientRect().bottom;
+
+    isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+
+    return isVisible;
+} */
+
+/* Sjekker om elementet er synlig */
+/* function isScrolledIntoView(el) {
+    var rect = el.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+
+    // Only completely visible elements return true:
+    //var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+
+    // Partially visible elements return true:
+    isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+    return isVisible;
+} */
