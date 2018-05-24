@@ -74,11 +74,14 @@
     padding-bottom: 48px;
 }
 
+.authors {
+  padding: 50px;
+  text-align: left;
+}
+
 /* Fonter */
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    
     font-size: 16px;
 }
 p2 {
@@ -91,11 +94,9 @@ p3 {
 p4 {
     font-size: 16px;
     font-weight: bold;
-    padding: 50px;
 }
 
 h1 {
-    font-family: 'Bowlby One';
     font-size: 72px;
 }
 h2 {
