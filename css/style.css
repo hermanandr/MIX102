@@ -77,6 +77,8 @@
 /* Fonter */
 
 p {
+    font-family: 'Open Sans', sans-serif;
+    
     font-size: 16px;
 }
 p2 {
@@ -93,6 +95,7 @@ p4 {
 }
 
 h1 {
+    font-family: 'Bowlby One';
     font-size: 72px;
 }
 h2 {
