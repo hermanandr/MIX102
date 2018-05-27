@@ -21,7 +21,7 @@
 }
 
 .gradient1 {
-    background: linear-gradient(#005078, gray);
+    background: linear-gradient(#28445D, gray);
 }
 
 .white {
@@ -131,7 +131,12 @@ p3 {
 }
 
 p4 {
-    font-size: 16px;
+    font-size: 20px;
+}
+
+p5 {
+    font-size: 30px;
+    font-style: italic;
 }
 
 h1 {
@@ -139,7 +144,8 @@ h1 {
     font-size: 90px;
 }
 h2 {
-    font-size: 48px;
+    font-size: 60px;
+    font-family: 'Bowlby One';
 }
 
 .big {
@@ -167,6 +173,16 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .img4 {
+    max-width: 100%
+}
+
+/*
+.img4 {
+    image: url('../images/Tone.jpg');
+}*/
+
 
 /* Små mobilenheter */
 @media (min-width: 320px) {
