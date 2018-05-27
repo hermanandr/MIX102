@@ -19,11 +19,24 @@ window.addEventListener('scroll', function() {
 
     title.style.top = 400 - scrollPercent*window.innerHeight/10 + 'px';
 
+// faktaboks
+});
+
+$(document).ready(function(){
+  var title = $("#faktaboks").text();
+  $("#faktaboks").click(function(){
+      $("#fakta").slideToggle();
+      if($("#faktaboks").text() == title){
+        $("#faktaboks").text("Mindre om ID-merking");
+      } else {
+        $("#faktaboks").text(title);
+      };
+  });
 });
 
 
 
-/* 
+/*
     when element is visible {
         move element = scrollPercent*window.innerHeight + 'px' - parentScrollPos;
     }
@@ -35,7 +48,7 @@ window.addEventListener('scroll', function() {
         document.getElementById('text').style.color = "blue";
   } else {
     document.getElementById('text').style.color = "red";
-  }  
+  }
 }
 
 
