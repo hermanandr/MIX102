@@ -202,7 +202,7 @@ p3 {
 }
 
 p4 {
-    font-size: 20px;
+    font-size: 29px;
 }
 
 p5 {
@@ -226,7 +226,11 @@ h2 {
 }
 
 .big {
-    font-size: 84px;
+    font-size: 120px;
+}
+
+.big2 {
+    font-size: 80px;
 }
 
 /* Bakgrunnsbilder */
@@ -254,6 +258,10 @@ h2 {
 
 .img4 {
     max-width: 100%
+}
+
+.nettsted {
+  max-width: 30px;
 }
 
 .faktaboks {
