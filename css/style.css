@@ -212,8 +212,12 @@ p5 {
 
 p6 {
     text-align: center;
-    font-size: 23px;
+    font-size: 40px;
     font-weight: bold;
+}
+
+p7 {
+  font-size: 30px;
 }
 
 h1 {
@@ -297,11 +301,11 @@ h2 {
 .svarbokser {
     background-color: #F8F3CB;
     border: 1px solid grey;
-    border-radius: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    border-radius: 30px;
+    padding: 15px 5px 15px 5px;
     margin: 15px;
-    width: 70px;
+    width: 150px;
+    /* height: 70px; */
     color: #000;
     text-align: center;
     letter-spacing: 1px;
@@ -311,14 +315,23 @@ h2 {
 .budskap {
   background-color: #F3E8DE;
   border: 1px solid grey;
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 180px;
+  border-radius: 30px;
+  padding: 10px 5px 10px 5px;
+  width: 340px;
   color: #000;
   text-align: center;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+.lenker {
+  display: flex;
+  flex-direction: row;
+}
+
+.ikoner {
+  display: flex;
+  flex-direction: column;
 }
 
 .grey {
