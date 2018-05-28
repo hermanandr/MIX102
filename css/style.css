@@ -71,6 +71,13 @@
     align-items: center;
 }
 
+.centerBox{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* -    -   -   -   -   -   -   -   -   -   -   - */
 
 .background {
@@ -308,6 +315,24 @@ h2 {
 
 .grey {
     color: grey;
+}
+
+
+.formeringsBoks {
+  min-height: 200px;
+  width: 100%;
+  background-color: white;
+  transition: box-shadow 0.4s;
+  -o- transition: box-shadow 0.4s;
+  -moz- transition: box-shadow 0.4s;
+  -webkit- transition: box-shadow 0.4s;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+
+.box {
+  align: center;
 }
 
 /*
