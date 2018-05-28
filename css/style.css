@@ -257,6 +257,10 @@ h2 {
     max-width: 100%
 }
 
+.nettsted {
+  max-width: 30px;
+}
+
 .faktaboks {
     width: inherit;
     background-color: white;
