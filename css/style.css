@@ -1,4 +1,5 @@
 /* Felles stiler */
+
 .container {
     max-width: 800px;
     margin: auto;
@@ -16,8 +17,7 @@
     width: 100%;
     height: 100%;
     color: #fff;
-    background-color: #000000;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .gradient1 {
@@ -25,7 +25,7 @@
 }
 
 .white {
-  color: white;
+    color: white;
 }
 
 .fullSection {
@@ -54,7 +54,7 @@
 }
 
 .section2 {
-  height: 268px;
+    height: 268px;
 }
 
 .byLine {
@@ -71,8 +71,9 @@
     align-items: center;
 }
 
+/* -    -   -   -   -   -   -   -   -   -   -   - */
 
-  .background {
+.background {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -80,46 +81,50 @@
     background-size: cover;
     background-position: center;
     text-rendering: optimizeLegibility;
-  }
-  .background:after {
+}
+
+.background:after {
     content: '';
     position: fixed;
     top: 10px;
     right: 10px;
     bottom: 10px;
     left: 10px;
-    border: 1px solid rgba(255,255,255,.2);
-  }
-  .wrapper {
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.wrapper {
     display: none;
-  }
-  
+}
 
 .background {
-position: fixed;
-width: 100%;
-height: 100%;
-background-image: url('../img/bg2.jpg');
-background-size: cover;
-background-position: center;
-text-rendering: optimizeLegibility;
-}
-.background:after {
-content: '';
-position: fixed;
-top: 10px;
-right: 10px;
-bottom: 10px;
-left: 10px;
-border: 1px solid rgba(255,255,255,.2);
-}
-.wrapper {
-display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-rendering: optimizeLegibility;
 }
 
-  /* 1. Intro Keyframe
-  --------------------------------------- */
-  #intro {
+.background:after {
+    content: '';
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.wrapper {
+    display: none;
+}
+
+/* 1. Intro Keyframe
+--------------------------------------- */
+
+#intro {
     position: fixed;
     top: 48%;
     left: 10%;
@@ -127,50 +132,55 @@ display: none;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-  }
-  .mainTitle {
+}
+
+.mainTitle {
     font-family: 'Bowlby One';
     font-size: 72px;
     letter-spacing: 4px;
     text-align: center;
-  }
-  .subTitle { 
+}
+
+.subTitle {
     font-size: 28px;
     letter-spacing: 4px;
     text-align: center;
     font-weight: 600;
-  }
-  
-  
-  /* 2. Explosion/Images/Links Structure and Text
-  --------------------------------------- */
-  #parallSection{
+}
+
+/* 2. Explosion/Images/Links Structure and Text
+--------------------------------------- */
+
+#parallSection {
     position: fixed;
     top: 100%;
     width: 100%;
     height: 100%;
-  }
-  .scrollText {
+}
+
+.scrollText {
     position: fixed;
     color: white;
     opacity: 0;
-  }
+}
 
 /* Avstander */
+
 .pt {
     padding-top: 48px;
 }
+
 .pb {
     padding-bottom: 48px;
 }
 
 .authors {
-  padding: 50px;
-  text-align: left;
+    padding: 50px;
+    text-align: left;
 }
 
 .bottomSection {
-  background-color: #FAEBD7;
+    background-color: #FAEBD7;
 }
 
 /* Fonter */
@@ -181,14 +191,14 @@ p {
 }
 
 p1 {
-  font-size:30px;
+    font-size: 30px;
 }
 
-p2 {
+p2 {
     font-size: 20px;
 }
 
-p3 {
+p3 {
     font-size: 84px;
 }
 
@@ -202,24 +212,26 @@ p5 {
 }
 
 p6 {
-  font-size: 23px;
-  font-weight: bold;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 h1 {
     font-family: 'Bowlby One';
     font-size: 90px;
 }
+
 h2 {
     font-size: 60px;
     font-family: 'Bowlby One';
 }
 
 .big {
-  font-size: 84px;
+    font-size: 84px;
 }
 
 /* Bakgrunnsbilder */
+
 .img1 {
     background-image: url('../images/kattiBy.jpg');
     background-position: 50% 50%;
@@ -239,42 +251,37 @@ h2 {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-  }
+}
 
-  .img4 {
+.img4 {
     max-width: 100%
 }
 
-.faktaboks{
-  width: inherit;
-  background-color: white;
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-
+.faktaboks {
+    width: inherit;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-#fakta{
-  display: none;
-  width: 80%;
-
-
+#fakta {
+    display: none;
+    width: 80%;
 }
 
-#faktaboks{
-  border-radius: 5px;
-  width: 300px;
-  color: grey;
-  padding: 5px;
-  text-align: left;
-  letter-spacing: 1px;
-  cursor: pointer;
+#faktaboks {
+    border-radius: 5px;
+    width: 300px;
+    color: grey;
+    padding: 5px;
+    text-align: left;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
-
-.grey
-{
-  color: grey;
+.grey {
+    color: grey;
 }
 
 /*
@@ -282,28 +289,22 @@ h2 {
     image: url('../images/Tone.jpg');
 }*/
 
-
 /* Små mobilenheter */
-@media (min-width: 320px) {
 
+@media (min-width: 320px) {
     .basicSection {
         height: 800px;
     }
-
 }
 
 /* Nettbrett */
-@media (min-width: 767px) {
 
+@media (min-width: 767px) {
     .basicSection {
         height: 1000px;
     }
-
 }
 
 /* Desktop */
-@media (min-width: 991px) {
 
-
-
-}
+@media (min-width: 991px) {}

@@ -42,7 +42,7 @@
                 'opacity'     : [0, 2] // hack to accelrate opacity speed
               }, {
                 'selector'    : '.black',
-                'opacity'     : [0, 0.8] // hack to accelrate opacity speed
+                'opacity'     : [0, 1] // hack to accelrate opacity speed
               }
             ]
           } , 
