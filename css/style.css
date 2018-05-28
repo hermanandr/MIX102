@@ -281,15 +281,29 @@ h2 {
     cursor: pointer;
 }
 
+/* .svar {
+    width: inherit;
+    background-color: grey;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+} */
+
 #svarboks {
-    
-    border-radius: 5px;
-    width: px;
-    color: grey;
-    padding: 5px;
+  /* width: inherit; */
+  background-color: grey;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+    /* border-radius: 5px; */
+    width: 50px;
+    color: #fff;
+    /* padding: 5px; */
     text-align: left;
     letter-spacing: 1px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-around;
 }
 
 .grey {
