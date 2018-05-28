@@ -111,6 +111,10 @@
   text-align: left;
 }
 
+.bottomSection {
+  background-color: #FAEBD7;
+}
+
 /* Fonter */
 
 p {
@@ -137,6 +141,11 @@ p4 {
 p5 {
     font-size: 30px;
     font-style: italic;
+}
+
+p6 {
+  font-size: 23px;
+  font-weight: bold;
 }
 
 h1 {
