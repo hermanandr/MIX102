@@ -38,8 +38,8 @@
             'animations' :  [
               {
                 'selector'    : '.scrollText',
-                'translateY'  : '-90%',
-                'opacity'     : [0, 2] // hack to accelrate opacity speed
+                'translateY'  : '-40%',
+                'opacity'     : [1, 1] // hack to accelrate opacity speed
               }, {
                 'selector'    : '.black',
                 'opacity'     : [0, 1] // hack to accelrate opacity speed
