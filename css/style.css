@@ -223,7 +223,7 @@ p3 {
 }
 
 p4 {
-    font-size: 20px;
+    font-size: 29px;
 }
 
 p5 {
@@ -248,7 +248,7 @@ h2 {
 }
 
 .big {
-    font-size: 84px;
+    font-size: 120px;
 }
 
 /* Bakgrunnsbilder */
@@ -349,20 +349,39 @@ h2 {
 
 
 .formeringsBoks {
+
   min-height: 200px;
   width: 100%;
+  border-radius: 10px;
   background-color: white;
   transition: box-shadow 0.4s;
   -o- transition: box-shadow 0.4s;
   -moz- transition: box-shadow 0.4s;
   -webkit- transition: box-shadow 0.4s;
   margin-bottom: 30px;
+  padding-top: 20px;
   box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
   align-items: center;
+
 }
 
-.box {
+.buttonBox {
+ display: flex;
+ flex-direction: row;
+  justify-content: center;
+}
+
+
+.button {
+  margin-right: 10px;
+  float: left;
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 20px;
+  width: 20%;
   align: center;
+
 }
 
 /*
