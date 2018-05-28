@@ -210,7 +210,7 @@ p3 {
 }
 
 p4 {
-    font-size: 20px;
+    font-size: 29px;
 }
 
 p5 {
@@ -234,7 +234,7 @@ h2 {
 }
 
 .big {
-    font-size: 84px;
+    font-size: 120px;
 }
 
 /* Bakgrunnsbilder */
@@ -329,10 +329,6 @@ h2 {
   margin-bottom: 30px;
   box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
   align-items: center;
-}
-
-.box {
-  align: center;
 }
 
 /*
