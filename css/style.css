@@ -213,6 +213,16 @@ h2 {
   cursor: pointer;
 }
 
+#svarboks {
+  border-radius: 5px;
+  width: px;
+  color: grey;
+  padding: 5px;
+  text-align: left;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
 
 .grey
 {
