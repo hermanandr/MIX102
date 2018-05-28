@@ -298,10 +298,10 @@ h2 {
 
 #svarboks {
   /* width: inherit; */
-  background-color: grey;
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+    background-color: grey;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     /* border-radius: 5px; */
     width: 50px;
     color: #fff;
