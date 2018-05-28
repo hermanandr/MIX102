@@ -280,25 +280,18 @@ h2 {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 #svarboks {
-  border-radius: 5px;
-  width: px;
-  color: grey;
-  padding: 5px;
-  text-align: left;
-  letter-spacing: 1px;
-  cursor: pointer;
+    border-radius: 5px;
+    width: px;
+    color: grey;
+    padding: 5px;
+    text-align: left;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
-
-.grey
-{
-  color: grey;
-=======
 .grey {
     color: grey;
->>>>>>> a783f95dbd06d9023820ac0b37932625b261a24d
 }
 
 /*
