@@ -55,7 +55,7 @@
                 'translateY'  : '-40%',
                 'opacity'     : [0, 1] // hack to accelrate opacity speed
               }, {
-                'selector'    : '.mork',
+                'selector'    : '.black',
                 'opacity'     : [-1.4, 1.4] // hack to accelrate opacity speed
               }
             ]
@@ -101,6 +101,8 @@
       $window.scroll(0);
       currentWrapper = wrappers[0];
       $(currentWrapper).show();
+
+      console.log(bodyHeight);
     }
 
     convertAllPropsToPx = function() {
