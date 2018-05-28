@@ -18,9 +18,9 @@ window.addEventListener('scroll', function() {
     var scrollPercent = scrollTop/scrollArea || 0;
 
     title.style.top = 400 - scrollPercent*window.innerHeight/10 + 'px';
+});
 
 // faktaboks
-});
 
 $(document).ready(function(){
   var title = $("#faktaboks").text();
