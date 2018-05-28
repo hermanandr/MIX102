@@ -313,31 +313,30 @@ h2 {
 .svar{
   display: flex;
   justify-content: center;
-  /* align-items: stretch; */
 }
 
 .svarbokser {
-  /* width: inherit; */
-    background-color: grey;
+    background-color: #F8F3CB;
+    border: 1px solid grey;
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    /* border-radius: 5px; */
+    margin: 15px;
     width: 70px;
-    color: #fff;
-    /* padding: 5px; */
+    color: #000;
     text-align: center;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
 .budskap {
-  background-color: grey;
+  background-color: #F3E8DE;
+  border: 1px solid grey;
   border-radius: 10px;
   padding-left: 5px;
   padding-right: 5px;
-  width: 200px;
-  color: #fff;
+  width: 180px;
+  color: #000;
   text-align: center;
   letter-spacing: 1px;
   cursor: pointer;
