@@ -44,6 +44,14 @@
     min-height: 100%;
 }
 
+.vidBottom {
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 #title {
     position: absolute;
     color: #fff;
@@ -187,7 +195,12 @@
 }
 
 .bottomSection {
-    background-color: #FAEBD7;
+    /* background-color: #FAEBD7; */
+    background-color: #F0D9C7;
+}
+
+.midBottom {
+  text-align: center;
 }
 
 /* Fonter */
@@ -219,6 +232,7 @@ p5 {
 }
 
 p6 {
+    text-align: center;
     font-size: 23px;
     font-weight: bold;
 }
@@ -296,21 +310,37 @@ h2 {
     padding-right: 5px;
 } */
 
-#svarboks {
+.svar{
+  display: flex;
+  justify-content: center;
+  /* align-items: stretch; */
+}
+
+.svarbokser {
   /* width: inherit; */
     background-color: grey;
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
     /* border-radius: 5px; */
-    width: 50px;
+    width: 70px;
     color: #fff;
     /* padding: 5px; */
-    text-align: left;
+    text-align: center;
     letter-spacing: 1px;
     cursor: pointer;
-    display: flex;
-    justify-content: space-around;
+}
+
+.budskap {
+  background-color: grey;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .grey {
