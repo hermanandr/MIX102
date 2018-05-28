@@ -178,8 +178,13 @@
     background-color: #F0D9C7;
 }
 
+
 .midBottom {
   text-align: center;
+}
+
+.midBottom {
+  padding: 30px;
 }
 
 /* Fonter */
@@ -187,6 +192,10 @@
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+}
+
+.bottomSection p {
+  text-align: center;
 }
 
 p1 {
@@ -212,7 +221,7 @@ p5 {
 
 p6 {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -324,14 +333,28 @@ h2 {
   cursor: pointer;
 }
 
-.lenker {
+.videreLesing {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .ikoner {
   display: flex;
   flex-direction: column;
+}
+
+.ikoner img {
+  padding: 10px;
+}
+
+.lenker {
+  text-align: left;
+  padding: 5px;
+}
+
+.lenker a {
+  line-height: 27.8px;
 }
 
 .grey {
