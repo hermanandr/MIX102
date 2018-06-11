@@ -8,9 +8,6 @@ var title = document.getElementById('title');
 var titleHeight = document.getElementById('title').style.top;
 var section1 = document.getElementById('sec1');
 
-/* var square1 = document.getElementById('en');
-var square2 = document.getElementById('to'); */
-
 // update position of square 1 and square 2 when scroll event fires.
 window.addEventListener('scroll', function() {
 
