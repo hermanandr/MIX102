@@ -44,6 +44,12 @@
 
 .fullSection {
     height: 100vh;
+    position: relative;
+}
+.fullSectionBottom {
+  height: 100vh;
+  position: relative;
+  z-index: 0;
 }
 
 .basicSection {
@@ -58,13 +64,13 @@
     min-height: 100%;
 }
 
-.vidBottom {
-    /* position: absolute; */
+/* .vidBottom {
+    /* position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-}
+} */
 
 #title {
     position: absolute;
@@ -176,6 +182,12 @@
 .bottomSection {
     /* background-color: #FAEBD7; */
     background-color: #F0D9C7;
+    padding-bottom: 0;
+}
+
+/*vil fjerne det store mellomrommet før spørsmålet*/
+.bottomSection pb {
+  padding-bottom: 0;
 }
 
 
@@ -184,7 +196,7 @@
 }
 
 .midBottom {
-  padding: 30px;
+  padding: 0 30px 30px 30px;
 }
 
 /* Fonter */
@@ -194,8 +206,10 @@ p {
     font-size: 16px;
 }
 
+/* Les mer om..*/
 .bottomSection p {
   text-align: center;
+  margin-bottom: 0;
 }
 
 p1 {
@@ -294,15 +308,7 @@ h2 {
     cursor: pointer;
 }
 
-/* .svar {
-    width: inherit;
-    background-color: grey;
-    border-radius: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-} */
-
-.svar{
+.svarboks{
   display: flex;
   justify-content: center;
 }
@@ -321,6 +327,11 @@ h2 {
     cursor: pointer;
 }
 
+#svar {
+    display: none;
+    width: 80%;
+}
+
 .budskap {
   background-color: #F3E8DE;
   border: 1px solid grey;
@@ -336,7 +347,10 @@ h2 {
 .videreLesing {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  position: absolute;
+  top: 5%;
+  left: 38%;
+  z-index: 1;
 }
 
 .ikoner {

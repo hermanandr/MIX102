@@ -34,6 +34,18 @@ $(document).ready(function(){
   });
 });
 
+// $(document).ready(function(){
+//   var title = $("#svarboks").text();
+//   $("#svarbokser").click(function(){
+//       $("#svar").slideToggle();
+//       if($("#svarbokser").text() == title){
+//         $("#svarbokser").text("JA");
+//       } else {
+//         $("#svarbokser").text(title);
+//       };
+//   });
+// });
+
 
 
 /*
