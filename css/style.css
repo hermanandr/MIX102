@@ -61,6 +61,12 @@
     left: 20%;
 }
 
+.pil {
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+
 /*formeringsbokser og formeringsspørsmål*/
 .centerBox{
   text-align: center;
@@ -113,8 +119,7 @@
 /* farget seksjon på bunnen */
 .bottomSection {
     /* background-color: #FAEBD7; */
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #F0D9C7;
     padding-bottom: 0;
 }
 
@@ -243,12 +248,12 @@
     color: grey;
 }
 
-.green {
-  background-color: #5AE896;
+.bGreen {
+  background-color: green;
 }
 
-.red {
-  background-color: #FF6661;
+.bRed {
+  background-color: red;
 }
 
 /*formeringsboksene. sammen med centerbox*/
@@ -284,8 +289,7 @@
   border-color: grey;
   border-radius: 20px;
   width: 20%;
-  text-align: center;
-  background-color: none;
+  align: center;
 }
 
 
@@ -315,11 +319,6 @@
       p2 {
           font-size: 15px;
       }
-
-      /*finnes ingen p3
-      p3 {
-          font-size: 84px;
-      } */
 
       p4 {
           font-size: 20px;
@@ -377,13 +376,8 @@
     }
 
     p2 {
-        font-size: 20px;
+        font-size: 18px;
     }
-
-    /*finnes ingen p3
-    p3 {
-        font-size: 84px;
-    } */
 
     p4 {
         font-size: 29px;
@@ -424,7 +418,7 @@
 
   p {
       font-family: 'Open Sans', sans-serif;
-      font-size: 16px;
+      font-size: 20px;
   }
 
   /* Les mer om..*/
@@ -434,15 +428,19 @@
   }
 
   p1 {
-      font-size: 30px;
+      font-size: 27px;
   }
 
   p2 {
-      font-size: 20px;
+      font-size: 23px;
   }
 
   p4 {
-      font-size: 29px;
+      font-size: 23px;
+  }
+
+  p4 b {
+    font-size: 30px;
   }
 
   p5 {
@@ -458,7 +456,7 @@
 
   h1 {
       font-family: 'Bowlby One';
-      font-size: 90px;
+      font-size: 100px;
   }
 
   h2 {
@@ -469,4 +467,8 @@
   /*750 000, 510 katter og " */
   .big {
       font-size: 120px;
+  }
+
+  a {
+    font-size: 18px;
   }
