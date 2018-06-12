@@ -45,19 +45,13 @@ $(document).ready(function(){
 function showContent(buttonId){
     var button = document.getElementById(buttonId);
     var answer = document.getElementById("answer");
+    var correctButton = document.getElementById("button3");
+
+    console.log(correctButton);
 
     answer.style.display = "block";
-    button.style = "background-color: #666;";
-}
+    //button.style.backgroundColor = "#666";
+    correctButton.style.backgroundColor = "#7dd888";    
 
-$(document).ready(function(){
-    var title = $("#faktaboks").text();
-    $("#faktaboks").click(function(){
-        $("#fakta").slideToggle();
-        if($("#faktaboks").text() == title){
-          $("#faktaboks").text("Mindre om ID-merking");
-        } else {
-          $("#faktaboks").text(title);
-        };
-    });
-  });
+    
+}
