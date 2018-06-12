@@ -45,7 +45,9 @@ $(document).ready(function(){
 function showContent(buttonId){
     var button = document.getElementById(buttonId);
     var answer = document.getElementById("answer");
+
     answer.style.display = "block";
+    button.style = "background-color: #666;";
 }
 
 $(document).ready(function(){
