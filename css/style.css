@@ -339,11 +339,6 @@ h2 {
 }
 
 
-/*
-.img4 {
-    image: url('../images/Tone.jpg');
-}*/
-
 /* Små mobilenheter */
 
 @media (min-width: 320px) {
