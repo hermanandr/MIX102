@@ -4,7 +4,7 @@
 .container {
     max-width: 800px;
     margin: auto;
-    padding: 0px, 12px;
+    padding:12px;
 }
 
 /*skygge over bildene når tekst*/
@@ -353,11 +353,9 @@
 
       /*750 000, 510 katter og " */
       .big {
-          font-size: 90px;
+          font-size: 50px;
       }
-      .container {
-        margin: 0px, 12px;
-}
+
 
 }
 
