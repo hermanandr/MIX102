@@ -42,20 +42,17 @@
     color: white;
 }
 
+/*videoene*/
 .fullSection {
     height: 100vh;
     position: relative;
-}
-.fullSectionBottom {
-  height: 100vh;
-  position: relative;
-  z-index: 0;
 }
 
 .basicSection {
     position: relative;
 }
 
+/*videoene*/
 .vidMain {
     position: absolute;
     right: 0;
@@ -64,14 +61,7 @@
     min-height: 100%;
 }
 
-/* .vidBottom {
-    /* position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-} */
-
+/* "De nye hjemløse"*/
 #title {
     position: absolute;
     color: #fff;
@@ -81,24 +71,7 @@
     left: 20%;
 }
 
-.section2 {
-    height: 268px;
-}
-
-.byLine {
-    position: absolute;
-    color: #fff;
-    text-align: left;
-    background-color: #000000;
-    min-width: 100%;
-}
-
-.centerFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/*formeringsbokser og formeringsspørsmål*/
 .centerBox{
   text-align: center;
   justify-content: center;
@@ -108,13 +81,10 @@
 
 /* -    -   -   -   -   -   -   -   -   -   -   - */
 
-.wrapper {
-    display: none;
-}
 
 /* 1. Intro Keyframe
 --------------------------------------- */
-
+/*finnes ikke i html
 #intro {
     position: fixed;
     top: 48%;
@@ -124,31 +94,30 @@
     text-align: center;
     text-transform: uppercase;
 }
-
 .mainTitle {
     font-family: 'Bowlby One';
     font-size: 72px;
     letter-spacing: 4px;
     text-align: center;
 }
-
 .subTitle {
     font-size: 28px;
     letter-spacing: 4px;
     text-align: center;
     font-weight: 600;
-}
+} */
 
 /* 2. Explosion/Images/Links Structure and Text
 --------------------------------------- */
 
+/*linje 47. i norge finnes det rundt..*/
 #idMerking {
     position: fixed;
     top: 60%;
     width: 100%;
     height: 100%;
 }
-
+/*I 2017 hjalp dyrebesyttelsen...*/
 #hjelpBergen {
     position: fixed;
     top: 100%;
@@ -174,6 +143,7 @@
     padding-bottom: 48px;
 }
 
+/* tekst: og design: */
 .authors {
     padding: 50px;
     text-align: left;
@@ -189,7 +159,6 @@
 .bottomSection pb {
   padding-bottom: 0;
 }
-
 
 .midBottom {
   text-align: center;
@@ -259,6 +228,7 @@ h2 {
 
 /* Bakgrunnsbilder */
 
+/* første bilde*/
 .img1 {
     background-image: url('../images/kattiBy.jpg');
     background-position: 50% 50%;
@@ -266,6 +236,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
+/* andre bilde - katt mot hånd*/
 .img2 {
     background-image: url('../images/hender.jpg');
     background-position: 50% 50%;
@@ -273,17 +244,19 @@ h2 {
     background-repeat: no-repeat;
 }
 
+/*katt i vindu - forlatt i ferien*/
 .img3 {
     background-image: url('../images/vindu.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*klasse med tonebildet og katt som blir tatt vare på*/
 .img4 {
     max-width: 100%
 }
 
+/*class - mer om ID-merking*/
 .faktaboks {
     width: inherit;
     background-color: white;
@@ -292,12 +265,13 @@ h2 {
     padding-right: 5px;
 }
 
-
+/*teksten om ID-merking*/
 #fakta {
     display: none;
     width: 80%;
 }
 
+/* #id - "mer om ID-merking"*/
 #faktaboks {
     border-radius: 5px;
     width: 300px;
@@ -308,11 +282,13 @@ h2 {
     cursor: pointer;
 }
 
+/* klassen med alle svarene*/
 .svarboks{
   display: flex;
   justify-content: center;
 }
 
+/* hvert svar*/
 .svarbokser {
     background-color: #F8F3CB;
     border: 1px solid grey;
@@ -327,11 +303,13 @@ h2 {
     cursor: pointer;
 }
 
+/* svaret som blir skal komme opp om ja, nei, jeg vil spre budskapet (funksjon ikke implementert)*/
 #svar {
     display: none;
     width: 80%;
 }
 
+/* "Jeg vil spre budskapet"*/
 .budskap {
   background-color: #F3E8DE;
   border: 1px solid grey;
@@ -344,6 +322,8 @@ h2 {
   cursor: pointer;
 }
 
+
+
 .videreLesing {
   display: flex;
   flex-direction: row;
@@ -353,6 +333,7 @@ h2 {
   z-index: 1;
 }
 
+/*internett- og facebooklogo i bunn*/
 .ikoner {
   display: flex;
   flex-direction: column;
@@ -385,7 +366,6 @@ h2 {
 
 
 .formeringsBoks {
-
   min-height: 200px;
   width: 100%;
   border-radius: 10px;
@@ -430,7 +410,65 @@ h2 {
 @media (min-width: 320px) {
     .basicSection {
         height: 800px;
-    }
+      }
+      /* Fonter */
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+      /* Les mer om..*/
+      .bottomSection p {
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+      p1 {
+          font-size: 30px;
+      }
+
+      p2 {
+          font-size: 20px;
+      }
+
+      p3 {
+          font-size: 84px;
+      }
+
+      p4 {
+          font-size: 29px;
+      }
+
+      p5 {
+          font-size: 30px;
+          font-style: italic;
+      }
+
+      p6 {
+          text-align: center;
+          font-size: 35px;
+          font-weight: bold;
+      }
+
+      p7 {
+        font-size: 30px;
+      }
+
+      h1 {
+          font-family: 'Bowlby One';
+          font-size: 90px;
+      }
+
+      h2 {
+          font-size: 60px;
+          font-family: 'Bowlby One';
+      }
+
+      .big {
+          font-size: 120px;
+      }
+
 }
 
 /* Nettbrett */
