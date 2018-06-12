@@ -50,7 +50,7 @@ function showContent(buttonId){
     console.log(correctButton);
 
     answer.style.display = "block";
-    //button.style.backgroundColor = "#666";
+    //button.style.backgroundColor = "#dedede";
     correctButton.style.backgroundColor = "#7dd888";    
 
     
