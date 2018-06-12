@@ -43,15 +43,18 @@ $(document).ready(function(){
 // });
 
 function showContent(buttonId){
-    var button = document.getElementById(buttonId);
     var answer = document.getElementById("answer");
     var correctButton = document.getElementById("button3");
 
-    console.log(correctButton);
-
     answer.style.display = "block";
-    //button.style.backgroundColor = "#dedede";
-    correctButton.style.backgroundColor = "#7dd888";    
+    document.getElementById("button1").style.backgroundColor = "#dedede";
+    document.getElementById("button2").style.backgroundColor = "#dedede";
+    correctButton.style.backgroundColor = "#7dd888";  
 
+    if(buttonId == "button3"){
+        document.getElementById("feedback").innerHTML = "Riktig!";
+    } else {
+        document.getElementById("feedback").innerHTML = "Ikke helt riktig"
+    }
     
 }
