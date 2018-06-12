@@ -115,61 +115,7 @@
     padding-bottom: 0;
 }
 
-/* FONTER */
 
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-/* Les mer om..*/
-.bottomSection p {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-p1 {
-    font-size: 30px;
-}
-
-p2 {
-    font-size: 20px;
-}
-
-/*finnes ingen p3
-p3 {
-    font-size: 84px;
-} */
-
-p4 {
-    font-size: 29px;
-}
-
-p5 {
-    font-size: 30px;
-    font-style: italic;
-}
-
-p6 {
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-h1 {
-    font-family: 'Bowlby One';
-    font-size: 90px;
-}
-
-h2 {
-    font-size: 60px;
-    font-family: 'Bowlby One';
-}
-
-/*750 000, 510 katter og " */
-.big {
-    font-size: 120px;
-}
 
 /* Bakgrunnsbilder */
 
@@ -345,6 +291,61 @@ h2 {
     .basicSection {
         height: 800px;
       }
+      /* FONTER */
+
+      p {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+      }
+
+      /* Les mer om..*/
+      .bottomSection p {
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+      p1 {
+          font-size: 20px;
+      }
+
+      p2 {
+          font-size: 15px;
+      }
+
+      /*finnes ingen p3
+      p3 {
+          font-size: 84px;
+      } */
+
+      p4 {
+          font-size: 20px;
+      }
+
+      p5 {
+          font-size: 20px;
+          font-style: italic;
+      }
+
+      p6 {
+          text-align: center;
+          font-size: 35px;
+          font-weight: bold;
+      }
+
+      h1 {
+          font-family: 'Bowlby One';
+          font-size: 55px;
+      }
+
+      h2 {
+          font-size: 40px;
+          font-family: 'Bowlby One';
+      }
+
+      /*750 000, 510 katter og " */
+      .big {
+          font-size: 90px;
+      }
 }
 
 /* Nettbrett */
@@ -357,4 +358,60 @@ h2 {
 
 /* Desktop */
 
-@media (min-width: 991px) {}
+@media (min-width: 991px) {
+
+  /* FONTER */
+
+  p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+  }
+
+  /* Les mer om..*/
+  .bottomSection p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  p1 {
+      font-size: 30px;
+  }
+
+  p2 {
+      font-size: 20px;
+  }
+
+  /*finnes ingen p3
+  p3 {
+      font-size: 84px;
+  } */
+
+  p4 {
+      font-size: 29px;
+  }
+
+  p5 {
+      font-size: 30px;
+      font-style: italic;
+  }
+
+  p6 {
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+  }
+
+  h1 {
+      font-family: 'Bowlby One';
+      font-size: 90px;
+  }
+
+  h2 {
+      font-size: 60px;
+      font-family: 'Bowlby One';
+  }
+
+  /*750 000, 510 katter og " */
+  .big {
+      font-size: 120px;
+  }
