@@ -78,7 +78,9 @@
   align-items: center;
 }
 
-
+#answer{
+    display: none;
+}
 /* -    -   -   -   -   -   -   -   -   -   -   - */
 
 

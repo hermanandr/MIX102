@@ -42,4 +42,20 @@ $(document).ready(function(){
 //   });
 // });
 
+function showContent(buttonId){
+    var button = document.getElementById(buttonId);
+    var answer = document.getElementById("answer");
+    answer.style.display = "block";
+}
 
+$(document).ready(function(){
+    var title = $("#faktaboks").text();
+    $("#faktaboks").click(function(){
+        $("#fakta").slideToggle();
+        if($("#faktaboks").text() == title){
+          $("#faktaboks").text("Mindre om ID-merking");
+        } else {
+          $("#faktaboks").text(title);
+        };
+    });
+  });
