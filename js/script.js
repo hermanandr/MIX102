@@ -19,13 +19,13 @@ window.addEventListener('scroll', function() {
 // faktaboks
 
 $(document).ready(function(){
-  var title = $("#faktaboks").text();
+  var tekst = $("#faktaboks").text();
   $("#faktaboks").click(function(){
       $("#fakta").slideToggle();
-      if($("#faktaboks").text() == title){
+      if($("#faktaboks").text() == tekst){
         $("#faktaboks").text("Mindre om ID-merking");
       } else {
-        $("#faktaboks").text(title);
+        $("#faktaboks").text(tekst);
       };
   });
 });

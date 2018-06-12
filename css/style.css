@@ -163,25 +163,25 @@
     width: inherit;
     background-color: white;
     border-radius: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*teksten om ID-merking*/
 #fakta {
     display: none;
-    width: 80%;
+    width: auto;
 }
 
 /* #id - "mer om ID-merking"*/
 #faktaboks {
     border-radius: 5px;
-    width: 300px;
     color: grey;
     padding: 5px;
     text-align: left;
     letter-spacing: 1px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 /* hvert svar IKKE I HTML*/
@@ -352,6 +352,10 @@
       .big {
           font-size: 90px;
       }
+      .container {
+        margin: 0px, 12px;
+}
+
 }
 
 /* Nettbrett */
