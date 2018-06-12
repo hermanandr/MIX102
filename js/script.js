@@ -13,7 +13,7 @@ window.addEventListener('scroll', function() {
     var scrollTop = window.pageYOffset || window.scrollTop;
     var scrollPercent = scrollTop/scrollArea || 0;
 
-    title.style.top = 400 - scrollPercent*window.innerHeight/10 + 'px';
+    title.style.top = 350 - scrollPercent*window.innerHeight/10 + 'px';
 });
 
 // faktaboks
@@ -42,14 +42,15 @@ $(document).ready(function(){
 //   });
 // });
 
-function showContent(buttonId){
+// Formeringsspørsmål - viser riktig svar og infotekst
+function showAnswer(buttonId){
     var answer = document.getElementById("answer");
     var correctButton = document.getElementById("button3");
 
     answer.style.display = "block";
     document.getElementById("button1").style.backgroundColor = "#dedede";
     document.getElementById("button2").style.backgroundColor = "#dedede";
-    correctButton.style.backgroundColor = "#7dd888";  
+    correctButton.style.backgroundColor = "#7dd888";
 
     if(buttonId == "button3"){
         document.getElementById("feedback").innerHTML = "Riktig!";
