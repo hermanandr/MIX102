@@ -42,7 +42,8 @@ $(document).ready(function(){
 //   });
 // });
 
-function showContent(buttonId){
+// Formeringsspørsmål - viser riktig svar og infotekst
+function showAnswer(buttonId){
     var answer = document.getElementById("answer");
     var correctButton = document.getElementById("button3");
 
@@ -57,3 +58,5 @@ function showContent(buttonId){
         document.getElementById("feedback").innerHTML = "Ikke helt riktig"
     }
 }
+
+function
