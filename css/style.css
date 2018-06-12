@@ -112,6 +112,12 @@
 .pb {
     padding-bottom: 48px;
 }
+.mt {
+    margin-top: 24px;
+}
+.mb {
+    margin-bottom: 24px;
+}
 
 /* Byline */
 .authors {
