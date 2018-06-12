@@ -108,10 +108,6 @@
 
 /* -    -   -   -   -   -   -   -   -   -   -   - */
 
-/*class wrapper scrolltext og scrolltext2*/
-.wrapper {
-    display: none;
-}
 
 /* 1. Intro Keyframe
 --------------------------------------- */
@@ -125,16 +121,12 @@
     text-align: center;
     text-transform: uppercase;
 }
-
-
 .mainTitle {
     font-family: 'Bowlby One';
     font-size: 72px;
     letter-spacing: 4px;
     text-align: center;
 }
-
-
 .subTitle {
     font-size: 28px;
     letter-spacing: 4px;
