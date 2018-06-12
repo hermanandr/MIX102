@@ -354,6 +354,62 @@
     .basicSection {
         height: 1000px;
     }
+
+    /* FONTER */
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+
+    /* Les mer om..*/
+    .bottomSection p {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    p1 {
+        font-size: 30px;
+    }
+
+    p2 {
+        font-size: 20px;
+    }
+
+    /*finnes ingen p3
+    p3 {
+        font-size: 84px;
+    } */
+
+    p4 {
+        font-size: 29px;
+    }
+
+    p5 {
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    p6 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-family: 'Bowlby One';
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-family: 'Bowlby One';
+    }
+
+    /*750 000, 510 katter og " */
+    .big {
+        font-size: 120px;
+    }
 }
 
 /* Desktop */
@@ -380,11 +436,6 @@
   p2 {
       font-size: 20px;
   }
-
-  /*finnes ingen p3
-  p3 {
-      font-size: 84px;
-  } */
 
   p4 {
       font-size: 29px;
