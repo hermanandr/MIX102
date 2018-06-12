@@ -42,20 +42,17 @@
     color: white;
 }
 
+/*videoene*/
 .fullSection {
     height: 100vh;
     position: relative;
-}
-.fullSectionBottom {
-  height: 100vh;
-  position: relative;
-  z-index: 0;
 }
 
 .basicSection {
     position: relative;
 }
 
+/*videoene*/
 .vidMain {
     position: absolute;
     right: 0;
@@ -64,14 +61,7 @@
     min-height: 100%;
 }
 
-/* .vidBottom {
-    /* position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-} */
-
+/* "De nye hjemløse"*/
 #title {
     position: absolute;
     color: #fff;
@@ -81,24 +71,7 @@
     left: 20%;
 }
 
-.section2 {
-    height: 268px;
-}
-
-.byLine {
-    position: absolute;
-    color: #fff;
-    text-align: left;
-    background-color: #000000;
-    min-width: 100%;
-}
-
-.centerFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/*formeringsbokser og formeringsspørsmål*/
 .centerBox{
   text-align: center;
   justify-content: center;
