@@ -375,6 +375,14 @@ h2 {
     color: grey;
 }
 
+.bGreen {
+  background-color: green;
+}
+
+.bRed {
+  background-color: red;
+}
+
 
 .formeringsBoks {
 
@@ -409,8 +417,8 @@ h2 {
   border-radius: 20px;
   width: 20%;
   align: center;
-
 }
+
 
 /*
 .img4 {
