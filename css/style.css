@@ -265,16 +265,19 @@
   width: 100%;
   border-radius: 10px;
   background-color: white;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.4s;
   -o- transition: box-shadow 0.4s;
   -moz- transition: box-shadow 0.4s;
   -webkit- transition: box-shadow 0.4s;
-  margin-bottom: 30px;
-  padding-top: 20px;
-  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
-  align-items: center;
-
 }
+
+.formeringsBoks img {
+    max-width: 100%;
+}
+
 
 /*svarboksene på formering og adopsjonsspørsmål*/
 .buttonBox {
