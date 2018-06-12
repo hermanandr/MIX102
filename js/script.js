@@ -56,5 +56,4 @@ function showContent(buttonId){
     } else {
         document.getElementById("feedback").innerHTML = "Ikke helt riktig"
     }
-    
 }
