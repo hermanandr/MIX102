@@ -111,7 +111,8 @@
 /* farget seksjon på bunnen */
 .bottomSection {
     /* background-color: #FAEBD7; */
-    background-color: #F0D9C7;
+    background-color: #000000;
+    color: #ffffff;
     padding-bottom: 0;
 }
 
@@ -240,12 +241,12 @@
     color: grey;
 }
 
-.bGreen {
-  background-color: green;
+.green {
+  background-color: #5AE896;
 }
 
-.bRed {
-  background-color: red;
+.red {
+  background-color: #FF6661;
 }
 
 /*formeringsboksene. sammen med centerbox*/
