@@ -431,11 +431,15 @@
   }
 
   p1 {
-      font-size: 27px;
+      font-size: 30px;
   }
 
   p2 {
       font-size: 23px;
+  }
+
+  p3 {
+    font-size: 27px;
   }
 
   p4 {
