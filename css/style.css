@@ -427,25 +427,31 @@
     margin-bottom: 0;
   }
 
+  /* tekst over bildene */
   p1 {
       font-size: 30px;
+      line-height: normal;
   }
-
+  /*ingresser*/
   p2 {
       font-size: 23px;
   }
 
-  p3 {
+  h2 p2 {
     font-size: 27px;
   }
-
+  /*mindre ingresser*/
+  p3 {
+    font-size: 20px;
+  }
+  /* utdypende tekst*/
   p4 {
-      font-size: 23px;
+      font-size: 20px;
   }
-
-  p4 b {
+  /**/
+  /* p4 b {
     font-size: 30px;
-  }
+  } */
 
   p5 {
       font-size: 30px;
