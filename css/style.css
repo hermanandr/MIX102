@@ -76,9 +76,11 @@
 
 #answer{
     display: none;
+    background-color: #757575;
+    color: #fff;
+    padding: 24px;
+    margin-top: 24px;
 }
-/* -    -   -   -   -   -   -   -   -   -   -   - */
-
 
 /*linje 47. i norge finnes det rundt..*/
 #idMerking {
