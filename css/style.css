@@ -61,6 +61,12 @@
     left: 20%;
 }
 
+.pil {
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+
 /*formeringsbokser og formeringsspørsmål*/
 .centerBox{
   text-align: center;
