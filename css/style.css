@@ -356,6 +356,19 @@
 }
 
 /*knappene på formering og adopsjonsspørsmål*/
+.button {
+    float: left;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    min-width: 50px;
+    text-align: center;
+    padding: 8px 40px;
+    margin: 5px 5px;
+  }
+
+/*knappene på formering og adopsjonsspørsmål*/
 
 p1 {
   line-height: 1.4;
