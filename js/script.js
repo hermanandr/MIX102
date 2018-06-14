@@ -58,3 +58,7 @@ function showAnswer(buttonId){
         document.getElementById("feedback").innerHTML = "Ikke helt riktig"
     }
 }
+
+function buttons(){
+    //tom
+}

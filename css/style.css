@@ -1,13 +1,15 @@
 /* Felles stiler */
 
 /**/
+
 .container {
     max-width: 800px;
     margin: auto;
-    padding:12px;
+    padding: 12px;
 }
 
 /*skygge over bildene når tekst*/
+
 .black {
     position: relative;
     left: 0px;
@@ -23,26 +25,32 @@
 }
 
 /*blå gradient bakgrunn */
+
 .gradient1 {
     background: linear-gradient(#28445D, gray);
 }
 
 /* hvit tekst*/
+
 .white {
     color: white;
 }
 
 /*videoene*/
+
 .fullSection {
     height: 100vh;
     position: relative;
 }
+
 /*img1, 2, og 3 */
+
 .basicSection {
     position: relative;
 }
 
 /*videoene*/
+
 .vidMain {
     position: absolute;
     right: 0;
@@ -52,6 +60,7 @@
 }
 
 /* "De nye hjemløse"*/
+
 #title {
     position: absolute;
     color: #fff;
@@ -62,20 +71,22 @@
 }
 
 .pil {
-  justify-content: center;
-  align-items: center;
-  width: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
 }
 
 /*formeringsbokser og formeringsspørsmål*/
-.centerBox{
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+
+.centerBox {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Svarboks til formeringsspørsmål */
-#answer{
+
+#answer {
     display: none;
     background-color: #757575;
     color: #fff;
@@ -86,13 +97,16 @@
 }
 
 /*linje 47. i norge finnes det rundt..*/
+
 #idMerking {
     position: fixed;
     top: 60%;
     width: 100%;
     height: 100%;
 }
+
 /*I 2017 hjalp dyrebesyttelsen...*/
+
 #hjelpBergen {
     position: fixed;
     top: 100%;
@@ -101,31 +115,38 @@
 }
 
 /* tekst over bildene*/
+
 .scrollText {
     position: fixed;
 }
 
 /* Avstander */
+
 .pt {
     padding-top: 48px;
 }
+
 .pb {
     padding-bottom: 48px;
 }
+
 .mt {
     margin-top: 24px;
 }
+
 .mb {
     margin-bottom: 24px;
 }
 
 /* Byline */
+
 .authors {
     padding: 50px;
     text-align: left;
 }
 
 /* farget seksjon på bunnen */
+
 .bottomSection {
     /* background-color: #FAEBD7; */
     background-color: #3A3D40;
@@ -133,11 +154,10 @@
     color: #FFFFFF;
 }
 
-
-
 /* Bakgrunnsbilder */
 
 /* første bilde*/
+
 .img1 {
     background-image: url('../images/kattiBy.jpg');
     background-position: 50% 50%;
@@ -146,6 +166,7 @@
 }
 
 /* andre bilde - katt mot hånd*/
+
 .img2 {
     background-image: url('../images/hender.jpg');
     background-position: 50% 50%;
@@ -154,18 +175,22 @@
 }
 
 /*katt i vindu - forlatt i ferien*/
+
 .img3 {
     background-image: url('../images/vindu.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /*klasse med tonebildet og katt som blir tatt vare på*/
+
 .img4 {
     max-width: 100%
 }
 
 /*class - mer om ID-merking*/
+
 .faktaboks {
     width: inherit;
     background-color: white;
@@ -175,12 +200,14 @@
 }
 
 /*teksten om ID-merking*/
+
 #fakta {
     display: none;
     width: auto;
 }
 
 /* #id - "mer om ID-merking"*/
+
 #faktaboks {
     border-radius: 5px;
     color: grey;
@@ -192,21 +219,21 @@
 }
 
 .quotebox {
-  float: left;
+    float: left;
 }
 
 .b20 {
-  width: 20%;
-  float: left;
+    width: 20%;
+    float: left;
 }
 
 .b80 {
-  width: 80%;
-  float: left;
+    width: 80%;
+    float: left;
 }
 
-
 /* hvert svar IKKE I HTML*/
+
 /* .svarbokser {
     background-color: #F8F3CB;
     border: 1px solid grey;
@@ -215,19 +242,22 @@
     margin: 15px;
     width: 150px;
     /* height: 70px; */
-    /*color: #000;
+
+/*color: #000;
     text-align: center;
     letter-spacing: 1px;
     cursor: pointer;
 } */
 
 /* svaret som blir skal komme opp om ja, nei, jeg vil spre budskapet (funksjon ikke implementert)*/
+
 #svar {
     display: none;
     width: 80%;
 }
 
 /* "Jeg vil spre budskapet" IKKE I HTML*/
+
 /* .budskap {
   background-color: #F3E8DE;
   border: 1px solid grey;
@@ -241,91 +271,108 @@
 } */
 
 /* ikoner og lenker i bunn */
+
 .videreLesing {
-  display: flex;
-  flex-direction: row;
-  top: 5%;
-  left: 38%;
-  z-index: 1;
+    display: flex;
+    flex-direction: row;
+    top: 5%;
+    left: 38%;
+    z-index: 1;
 }
 
 /*internett- og facebooklogo i bunn*/
+
 .ikoner {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .ikoner img {
-  padding: 10px;
+    padding: 10px;
 }
 
 /*lenker i bunn*/
+
 .lenker {
-  text-align: left;
-  padding: 5px;
+    text-align: left;
+    padding: 5px;
 }
+
 .lenker a {
-  line-height: 27.8px;
-  color: #FFFFFF;
-  font-size: 15px;
-  font-weight: bold;
+    line-height: 27.8px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* grå tekst i faktabokser/svarbokser*/
+
 .grey {
     color: grey;
 }
 
 .bGreen {
-  background-color: green;
+    background-color: green;
 }
 
 .bRed {
-  background-color: red;
+    background-color: red;
 }
 
 /*formeringsboksene. sammen med centerbox*/
+
 .formeringsBoks {
-  min-height: 200px;
-  width: 100%;
-  border-radius: 10px;
-  background-color: white;
-  margin-bottom: 30px;
-  padding-top: 20px;
-  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.4s;
-  -o- transition: box-shadow 0.4s;
-  -moz- transition: box-shadow 0.4s;
-  -webkit- transition: box-shadow 0.4s;
+    min-height: 40vh;
+    border-radius: 10px;
+    background-color: white;
+    margin: 60px 0;
+    padding: 20px 10px;
+    box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.4s;
+    -o-transition: box-shadow 0.4s;
+    -moz-transition: box-shadow 0.4s;
+    -webkit-transition: box-shadow 0.4s;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center
 }
 
 .formeringsBoks img {
     max-width: 100%;
 }
 
-
 /*svarboksene på formering og adopsjonsspørsmål*/
+
 .buttonBox {
- display: flex;
- flex-direction: row;
- justify-content: center;
- flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /*knappene på formering og adopsjonsspørsmål*/
+
 .button {
-  float: left;
-  border: 2px;
-  border-style: solid;
-  border-color: grey;
-  border-radius: 20px;
-  min-width: 50px;
-  align: center;
-  padding: 0 40px;
-  margin: 5px 5px;
+    float: left;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    min-width: 50px;
+    align: center;
+    padding: 0 40px;
+    margin: 5px 5px;
 }
 
-p, p1, p2, p3, p4, p5, p6 {
-  line-height: 1.6;
+p,
+p1,
+p2,
+p3,
+p4,
+p5,
+p6 {
+    line-height: 1.6;
 }
 
 /* Små mobilenheter */
@@ -333,62 +380,50 @@ p, p1, p2, p3, p4, p5, p6 {
 @media (min-width: 320px) {
     .basicSection {
         height: 800px;
-      }
-      /* FONTER */
-
-      p {
-          font-family: 'Open Sans', sans-serif;
-          font-size: 16px;
-      }
-
-      /* Les mer om..*/
-      .bottomSection p {
+    }
+    /* FONTER */
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    /* Les mer om..*/
+    .bottomSection p {
         text-align: center;
         margin-bottom: 0;
-      }
-
-      p1 {
-          font-size: 20px;
-      }
-
-      p2 {
-          font-size: 15px;
-      }
-
-      p4 {
-          font-size: 20px;
-      }
-
-      p5 {
-          font-size: 20px;
-          font-style: italic;
-      }
-
-      p6 {
-          text-align: center;
-          font-size: 35px;
-          font-weight: bold;
-      }
-
-      h1 {
-          font-family: 'Bowlby One';
-          font-size: 55px;
-      }
-
-      h2 {
-          font-size: 40px;
-          font-family: 'Bowlby One';
-      }
-
-      /*750 000, 510 katter og " */
-      .big {
-          font-size: 50px;
-      }
-
-      .quote {
+    }
+    p1 {
+        font-size: 20px;
+    }
+    p2 {
+        font-size: 15px;
+    }
+    p4 {
+        font-size: 20px;
+    }
+    p5 {
+        font-size: 20px;
+        font-style: italic;
+    }
+    p6 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    h1 {
+        font-family: 'Bowlby One';
+        font-size: 55px;
+    }
+    h2 {
+        font-size: 40px;
+        font-family: 'Bowlby One';
+    }
+    /*750 000, 510 katter og " */
+    .big {
+        font-size: 50px;
+    }
+    .quote {
         width: 70px;
-      }
-
+    }
 }
 
 /* Nettbrett */
@@ -397,18 +432,14 @@ p, p1, p2, p3, p4, p5, p6 {
     .basicSection {
         height: 1000px;
     }
-
     .quote {
-      width: 90px;
+        width: 90px;
     }
-
     /* FONTER */
-
     /* p {
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
     } */
-
     /* Les mer om..*/
     /* .bottomSection p {
       text-align: center;
@@ -447,7 +478,6 @@ p, p1, p2, p3, p4, p5, p6 {
         font-size: 50px;
         font-family: 'Bowlby One';
     } */
-
     /*750 000, 510 katter og " */
     /* .big {
         font-size: 120px;
@@ -457,84 +487,72 @@ p, p1, p2, p3, p4, p5, p6 {
 /* Desktop */
 
 @media (min-width: 991px) {
-
-  /* FONTER */
-
-  p {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 20px;
-      line-height: 1.6;
-  }
-
-  /* Les mer om..*/
-  .bottomSection p {
-    text-align: center;
-    margin-bottom: 0;
-  }
-
-  /* tekst over bildene */
-  p1 {
-      font-size: 30px;
-      line-height: 1.6;
-  }
-  /*ingresser*/
-  p2 {
-      font-size: 25px;
-      line-height: 1.6;
-  }
-
-  h2 p2 {
-    font-size: 27px;
-    line-height: 1.6;
-  }
-  /*mindre ingresser*/
-  p3 {
-    font-size: 20px;
-    line-height: 1.6;
-  }
-  /* utdypende tekst*/
-  p4 {
-      font-size: 20px;
-      line-height: 1.6;
-  }
-
-  p4 b {
-    font-size: 25px;
-    line-height: 1.6;
-  }
-  /**/
-  /* p4 b {
+    /* FONTER */
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    /* Les mer om..*/
+    .bottomSection p {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    /* tekst over bildene */
+    p1 {
+        font-size: 30px;
+        line-height: 1.6;
+    }
+    /*ingresser*/
+    p2 {
+        font-size: 25px;
+        line-height: 1.6;
+    }
+    h2 p2 {
+        font-size: 27px;
+        line-height: 1.6;
+    }
+    /*mindre ingresser*/
+    p3 {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    /* utdypende tekst*/
+    p4 {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    p4 b {
+        font-size: 25px;
+        line-height: 1.6;
+    }
+    /**/
+    /* p4 b {
     font-size: 30px;
   } */
-
-  p5 {
-      font-size: 30px;
-      font-style: italic;
-      line-height: 1.6;
-  }
-
-  p6 {
-      text-align: center;
-      font-size: 35px;
-      font-weight: bold;
-      line-height: 1.6;
-  }
-
-  h1 {
-      font-family: 'Bowlby One';
-      font-size: 100px;
-  }
-
-  h2 {
-      font-size: 60px;
-      font-family: 'Bowlby One';
-  }
-
-  /*750 000, 510 katter og " */
-  .big {
-      font-size: 120px;
-  }
-
-  a {
-    font-size: 18px;
-  }
+    p5 {
+        font-size: 30px;
+        font-style: italic;
+        line-height: 1.6;
+    }
+    p6 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 1.6;
+    }
+    h1 {
+        font-family: 'Bowlby One';
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 60px;
+        font-family: 'Bowlby One';
+    }
+    /*750 000, 510 katter og " */
+    .big {
+        font-size: 120px;
+    }
+    a {
+        font-size: 18px;
+    }
