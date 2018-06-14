@@ -27,7 +27,7 @@
 /*blå gradient bakgrunn */
 
 .gradient1 {
-    background: linear-gradient(rgb(38,52,63), white 70%);
+    background: linear-gradient(rgb(38, 52, 63), white 70%);
 }
 
 /* hvit tekst*/
@@ -99,9 +99,11 @@
 #answer1 {
     display: none;
 }
+
 #answer2 {
     display: none;
 }
+
 #answer3 {
     display: none;
 }
@@ -163,16 +165,16 @@
     padding-bottom: 0;
 }
 
-.gul{
-color: rgb(243, 187, 107);
+.gul {
+    color: rgb(243, 187, 107);
 }
 
 .footer {
-  color: #FFFFFF;
-  background-color: #3A3D40;
-  padding: 30px;
-
+    color: #FFFFFF;
+    background-color: #3A3D40;
+    padding: 30px;
 }
+
 /* Bakgrunnsbilder */
 
 /* første bilde*/
@@ -367,6 +369,7 @@ color: rgb(243, 187, 107);
 }
 
 /*knappene på formering og adopsjonsspørsmål*/
+
 .button {
     float: left;
     background-color: rgba(255, 255, 255, 0.7);
@@ -376,20 +379,34 @@ color: rgb(243, 187, 107);
     text-align: center;
     padding: 8px 40px;
     margin: 5px 5px;
-  }
+}
+
+.button:hover {
+    box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.4);
+    -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+    -moz-transition: box-shadow 0.3s ease-in-out 0s;
+    -o-transition: box-shadow 0.3s ease-in-out 0s;
+    -ms-transition: box-shadow 0.3s ease-in-out 0s;
+    transition: box-shadow 0.3s ease-in-out 0s;
+}
 
 /*knappene på formering og adopsjonsspørsmål*/
 
 p1 {
-  line-height: 1.4;
+    line-height: 1.4;
 }
 
-p, p2, p3, p4, p5, p6 {
-  line-height: 1.6;
+p,
+p2,
+p3,
+p4,
+p5,
+p6 {
+    line-height: 1.6;
 }
 
 .authors p4 {
-  line-height: 1.4;
+    line-height: 1.4;
 }
 
 /* Små mobilenheter */
@@ -399,52 +416,41 @@ p, p2, p3, p4, p5, p6 {
         height: 800px;
     }
     /* FONTER */
-
     /* tekst over bildene */
     p {
         font-family: 'Open Sans', sans-serif;
         font-size: 23px;
     }
-
     /* Les mer om..*/
     .bottomSection p {
-      text-align: center;
-      margin-bottom: 0;
+        text-align: center;
+        margin-bottom: 0;
     }
-
-
     p1 {
         font-size: 21px;
     }
-
     p2 {
         font-size: 17px;
     }
-
     h1 {
         font-family: 'Bowlby One';
         font-size: 60px;
     }
-
     h2 {
         font-size: 40px;
         font-family: 'Bowlby One';
         letter-spacing: 1.2px;
     }
-
     /*750 000, 510 katter og " */
     .big {
         font-size: 60px;
         font-family: 'Open Sans', sans-serif;
     }
-
     .lenker a {
-      font-size: 14px;
-      padd
+        font-size: 14px;
+        padd
     }
-
-
-      .quote {
+    .quote {
         width: 50px;
     }
 }
@@ -459,102 +465,81 @@ p, p2, p3, p4, p5, p6 {
         width: 90px;
     }
     /* FONTER */
-
     /* tekst over bildene */
     p {
         font-family: 'Open Sans', sans-serif;
         font-size: 27px;
     }
-
     /* Les mer om..*/
     .bottomSection p {
-      text-align: center;
-      margin-bottom: 0;
+        text-align: center;
+        margin-bottom: 0;
     }
-
-
     p1 {
         font-size: 25px;
     }
-
     p2 {
         font-size: 20px;
     }
-
     h1 {
         font-family: 'Bowlby One';
         font-size: 80px;
     }
-
     h2 {
         font-size: 50px;
         font-family: 'Bowlby One';
         letter-spacing: 1.2px;
     }
-
     /*750 000, 510 katter og " */
     .big {
         font-size: 90px;
         font-family: 'Open Sans', sans-serif;
     }
-
     p2 a {
-      font-size: 16px;
+        font-size: 16px;
     }
-
     .quote {
-      width: 70px;
-  }
+        width: 70px;
+    }
 }
 
 /* Desktop */
 
 @media (min-width: 991px) {
-
-  /* FONTER */
-
-  /* tekst over bildene */
-  p {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 27px;
-  }
-
-  /* Les mer om..*/
-  .bottomSection p {
-    text-align: center;
-    margin-bottom: 0;
-  }
-
-
-  p1 {
-      font-size: 25px;
-  }
-
-  p2 {
-      font-size: 20px;
-  }
-
-  h1 {
-      font-family: 'Bowlby One';
-      font-size: 100px;
-  }
-
-  h2 {
-      font-size: 60px;
-      font-family: 'Bowlby One';
-      letter-spacing: 1.2px;
-  }
-
-  /*750 000, 510 katter og " */
-  .big {
-      font-size: 120px;
-      font-family: 'Open Sans', sans-serif;
-  }
-
-  a {
-    font-size: 20px;
-  }
-
-  .quote {
-    width: 90px;
-}
+    /* FONTER */
+    /* tekst over bildene */
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 27px;
+    }
+    /* Les mer om..*/
+    .bottomSection p {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    p1 {
+        font-size: 25px;
+    }
+    p2 {
+        font-size: 20px;
+    }
+    h1 {
+        font-family: 'Bowlby One';
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 60px;
+        font-family: 'Bowlby One';
+        letter-spacing: 1.2px;
+    }
+    /*750 000, 510 katter og " */
+    .big {
+        font-size: 120px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    a {
+        font-size: 20px;
+    }
+    .quote {
+        width: 90px;
+    }
