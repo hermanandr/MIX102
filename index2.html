@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Video Smart Cropping Experiment</title>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<style type="text/css">
+		body {
+			margin: 0;
+			background-color: black;
+			position: relative;
+			overflow: hidden;
+			height: 100%;
+			width: 100%;
+		}
+		#container {
+			position: relative;
+			overflow: hidden;
+			height: 100%;
+			width: 100%;
+		}
+		#video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			-webkit-transform-origin: top left;
+			-ms-transform-origin: top left;
+			-moz-transform-origin: top left;
+			transform-origin: top left;
+			transform: translate3d(0,0,0);
+			-webkit-transform: translate3d(0,0,0);
+		}
+		#video.center {
+			width: 100%;
+			height: 100%;
+		}
+		#video-player {
+			background-color: white;
+			opacity: 0.4;
+			width: 100%;
+			height: 40px;
+			position: absolute;
+			bottom: 0;
+			overflow: hidden;
+			white-space: nowrap;
+			-ms-transition: opacity 0s, visibility 0s linear 0s;
+			-moz-transition: opacity 0s, visibility 0s linear 0s;
+			-webkit-transition: opacity 0s, visibility 0s linear 0s;
+			transition: opacity 0s, visibility 0s linear 0s;
+		}
+		#video-player.hidden {
+			opacity: 0;
+			visibility: hidden;
+			-ms-transition: opacity 1s, visibility 0s linear 1s;
+			-moz-transition: opacity 1s, visibility 0s linear 1s;
+			-webkit-transition: opacity 1s, visibility 0s linear 1s;
+			transition: opacity 1s, visibility 0s linear 1s;
+		}
+		#timeline {
+			display: inline-block;
+			height: 100%;
+			width: calc(100% - 40px);
+			padding: 8px 0;
+			box-sizing: border-box;
+			cursor: pointer;
+		}
+		#playbutton {
+			display: inline-block;
+			height: 32px;
+			width: 24px;
+			margin: 4px 8px;
+			cursor: pointer;
+			background-position: top left;
+			background-repeat: no-repeat;
+			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAYAAABU1PscAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEQSURBVFiF1ZexDYMwEEX/ISQmYIrMwwI0GLGQaRgA5skUTOAGp4mlSxAIMMbn1wEC+f1XQUqp0RjTDcMwIwBKKbv3XGtNPu9n1tqqKIp30zTVlQPGJgMAa21JRGPbtmNd12XsQ50h4xcp1sj+b6RWYyXgSKXGpgCQRo1dAYfkGocEALk1Dgs4pNU4LQDIqnFJwCGhhpcAEL+Gt4AjVo3bBIA4NW4VcDxZI4jAkwQRIKLJGPPq+34K8X1OfufHiGhelqXTWgc/uOM2ge/qwX5Nt/AWiLE6x0sg1uqcSwKxV+ecFpCwOuewgKTVOYcEpK3O2RWQujpnU0Dy6pyVQAqrc34EUlmdkwPprc7JU1yd8wELddH8DWv9lQAAAABJRU5ErkJggg==);
+		}
+		#playbutton.playing {
+			background-position: top right;
+		}
+		#progress {
+			background-color: darkgrey;
+			height: 100%;
+			width: 0;
+		}
+		#controls {
+			position: absolute;
+			top: 0;
+			background-color: rgba(255, 255, 255, 0.4);
+			padding: 8px;
+		}
+		#box {
+			background-color: rgba(255, 255, 255, 0.2);
+			border: 2px solid background-color: rgba(255, 255, 255, 0.8);
+			box-sizing: border-box;
+			position: absolute;
+			display: none;
+		}
+		#info {
+			display: none;
+		}
+		#start {
+			position: absolute;
+			border-radius: 50px;
+			background-color: rgba(80, 80, 80, 0.6);
+			color: rgba(255, 255, 255, 0.85);
+			left: 0;
+			right: 0;
+			top: 0;
+			font-size: 40px;
+			padding: 8px 20px;
+			bottom: 0;
+			top: 0;
+			margin: auto;
+			overflow: auto;
+			width: 270px;
+			height: 70px;
+			cursor: pointer;
+			outline: none;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<video id="video" width="1280" height="690">
+				<source src="video/boxer.webm" type="video/webm"/>
+				<source src="video/boxer.mp4" type="video/mp4"/>
+			</video>
+		</div>
+		<div id="video-player" style="display: none;">
+			<div class="paused" id="playbutton"> </div>
+			<div id="timeline">
+				<div id="progress"> </div>
+			</div>
+		</div>
+		<div id="controls">
+			<input type="checkbox" id="enabled" checked/> <label for="enabled">Effect enabled</label>
+			<div id="timecode">0:00:00;00</div>
+			<div id="info">
+				<div id="position"></div>
+				<div id="boxdata"></div>
+			</div>
+		</div>
+		<button id="start">Start Demo</button>
+		<div id="box" style="display: none;"></div>
+		<script type="text/javascript" src="js/lib/popcorn.js"></script>
+		<script type="text/javascript" src="js/lib/popcorn-base.js"></script>
+		<script type="text/javascript" src="js/popcorn.smartcrop.js"></script>
+		<script type="text/javascript" src="js/play.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

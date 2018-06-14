@@ -38,7 +38,6 @@
 
 .fullSection {
     height: 100vh;
-    position: relative;
 }
 
 /*img1, 2, og 3 */
@@ -55,6 +54,17 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+
+.test {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
 }
 
 /* "De nye hjemløse"*/
@@ -64,7 +74,6 @@
     color: #fff;
     text-align: center;
     top: 100px;
-    width: 100%;
 }
 
 .pil {
@@ -290,8 +299,8 @@
     width: inherit;
     background-color: white;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 6px 10px;
+    color: grey;
 }
 
 /*teksten om ID-merking*/

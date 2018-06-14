@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
 });
 
 // faktaboks
-$(document).ready(function(){
+/* $(document).ready(function(){
   var tekst = $("#faktaboks").text();
   $("#faktaboks").click(function(){
       $("#fakta").slideToggle();
@@ -27,7 +27,17 @@ $(document).ready(function(){
         $("#faktaboks").text(tekst);
       };
   });
-});
+}); */
+
+function expand() {  
+    var faktaboks = document.getElementById("fakta");
+
+    if(faktaboks.style.display == "block") {
+        faktaboks.style.display = "none";
+    } else {
+        faktaboks.style.display = "block"; 
+    }
+}
 
 // Formeringsspørsmål - viser riktig svar og infotekst
 function showAnswer(buttonId){
