@@ -96,6 +96,16 @@
     border-bottom-left-radius: 10px;
 }
 
+#answer1 {
+    display: none;
+}
+#answer2 {
+    display: none;
+}
+#answer3 {
+    display: none;
+}
+
 /*linje 47. i norge finnes det rundt..*/
 
 #idMerking {
