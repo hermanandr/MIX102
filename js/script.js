@@ -48,12 +48,13 @@ function showAnswer(buttonId){
     var correctButton = document.getElementById("button3");
 
     answer.style.display = "block";
-    var test = document.getElementById("quiz").lastChild;
-    console.log(test);
+    var list = document.getElementById("quiz").children;
+    console.log(list[3]);
+    list[3].style.borderRadius = "10px 10px 0px 0px";
 
     document.getElementById("button1").style.backgroundColor = "#dedede";
     document.getElementById("button2").style.backgroundColor = "#dedede";
-    correctButton.style.backgroundColor = "#7dd888";
+    correctButton.style.backgroundColor = "rgb(0, 226, 139";
 
     if(buttonId == "button3"){
         document.getElementById("feedback").innerHTML = "Riktig!";
