@@ -27,7 +27,11 @@
 /*blå gradient bakgrunn */
 
 .gradient1 {
+<<<<<<< HEAD
     background: linear-gradient(rgb(38,52,63), white);
+=======
+    background: linear-gradient(#3A3D40, gray);
+>>>>>>> e57f8f2def38de9830559d2e5e2c0fae0b5c8555
 }
 
 /* hvit tekst*/
@@ -149,11 +153,15 @@
 
 .bottomSection {
     /* background-color: #FAEBD7; */
-    background-color: #3A3D40;
+    background-color: #FFFFFF;
     padding-bottom: 0;
-    color: #FFFFFF;
 }
 
+.footer {
+  color: #FFFFFF;
+  background-color: #3A3D40;
+  padding: 15px;
+}
 /* Bakgrunnsbilder */
 
 /* første bilde*/
@@ -350,6 +358,19 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+/*knappene på formering og adopsjonsspørsmål*/
+.button {
+    float: left;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    min-width: 50px;
+    text-align: center;
+    padding: 8px 40px;
+    margin: 5px 5px;
+  }
 
 /*knappene på formering og adopsjonsspørsmål*/
 
