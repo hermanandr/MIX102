@@ -150,12 +150,8 @@
     margin-bottom: 24px;
 }
 
-/* Byline */
 
-.authors {
-    padding: 50px;
-    text-align: left;
-}
+
 
 /* farget seksjon på bunnen */
 
@@ -414,10 +410,6 @@ p4,
 p5,
 p6 {
     line-height: 1.6;
-}
-
-.authors p4 {
-    line-height: 1.4;
 }
 
 /* Små mobilenheter */
