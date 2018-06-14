@@ -65,15 +65,21 @@
     position: absolute;
     color: #fff;
     text-align: center;
-    width: 80%;
-    top: 350px;
-    left: 20%;
+    top: 100px;
+    width: 100%;
 }
 
 .pil {
     justify-content: center;
     align-items: center;
     width: 50px;
+}
+
+.pilned {
+  width: 20px;
+  float: right;
+  padding: 5px;
+  padding-top: 7px;
 }
 
 /*formeringsbokser og formeringsspørsmål*/
@@ -156,12 +162,8 @@
     margin-bottom: 24px;
 }
 
-/* Byline */
 
-.authors {
-    padding: 50px;
-    text-align: left;
-}
+
 
 /* farget seksjon på bunnen */
 
@@ -423,11 +425,14 @@ p6 {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
 .authors p4 {
     line-height: 1.4;
 }
 
 
+=======
+>>>>>>> a90d6a313daf911a2a983f1e9629c61f0b159ec1
 /* Små mobilenheter */
 
 @media (min-width: 320px) {
@@ -453,7 +458,7 @@ p6 {
     }
     h1 {
         font-family: 'Bowlby One';
-        font-size: 60px;
+        font-size: 38px;
     }
     h2 {
         font-size: 40px;
