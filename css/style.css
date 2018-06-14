@@ -1,7 +1,5 @@
 /* Felles stiler */
 
-/**/
-
 .container {
     max-width: 800px;
     margin: auto;
@@ -36,7 +34,7 @@
     color: white;
 }
 
-/*videoene*/
+/*Seksjon som dekker hele vinduet*/
 
 .fullSection {
     height: 100vh;
@@ -49,7 +47,7 @@
     position: relative;
 }
 
-/*videoene*/
+/*video*/
 
 .vidMain {
     position: absolute;
@@ -81,6 +79,62 @@
   padding: 5px;
   padding-top: 7px;
 }
+
+/* Bounce-effekt på pil i topp */
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+}
+40% {
+    -moz-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+}
+@-webkit-keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+}
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+40% {
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+}
+
 
 /*formeringsbokser og formeringsspørsmål*/
 
@@ -416,23 +470,14 @@ p1 {
     line-height: 1.4;
 }
 
-p,
-p2,
-p3,
-p4,
-p5,
-p6 {
+p, p2, p3, p4, p5, p6 {
     line-height: 1.6;
 }
 
-<<<<<<< HEAD
 .authors p4 {
     line-height: 1.4;
 }
 
-
-=======
->>>>>>> a90d6a313daf911a2a983f1e9629c61f0b159ec1
 /* Små mobilenheter */
 
 @media (min-width: 320px) {
