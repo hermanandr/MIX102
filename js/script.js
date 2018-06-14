@@ -48,6 +48,9 @@ function showAnswer(buttonId){
     var correctButton = document.getElementById("button3");
 
     answer.style.display = "block";
+    var test = document.getElementById("quiz").lastChild;
+    console.log(test);
+
     document.getElementById("button1").style.backgroundColor = "#dedede";
     document.getElementById("button2").style.backgroundColor = "#dedede";
     correctButton.style.backgroundColor = "#7dd888";
