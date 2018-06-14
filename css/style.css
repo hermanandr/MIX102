@@ -27,7 +27,7 @@
 /*blå gradient bakgrunn */
 
 .gradient1 {
-    background: linear-gradient(rgb(38,52,63), white);
+    background: linear-gradient(rgb(38,52,63), white 70%);
 }
 
 /* hvit tekst*/
@@ -91,9 +91,19 @@
     background-color: #757575;
     color: #fff;
     padding: 24px;
-    margin-top: 24px;
+    margin-top: -60px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+#answer1 {
+    display: none;
+}
+#answer2 {
+    display: none;
+}
+#answer3 {
+    display: none;
 }
 
 /*linje 47. i norge finnes det rundt..*/
@@ -153,10 +163,15 @@
     padding-bottom: 0;
 }
 
+.gul{
+color: rgb(243, 187, 107);
+}
+
 .footer {
   color: #FFFFFF;
   background-color: #3A3D40;
-  padding: 15px;
+  padding: 30px;
+
 }
 
 .kattepoter {
@@ -358,10 +373,6 @@
     margin: 60px 0;
     padding: 20px 10px;
     box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.4s;
-    -o-transition: box-shadow 0.4s;
-    -moz-transition: box-shadow 0.4s;
-    -webkit-transition: box-shadow 0.4s;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -384,9 +395,8 @@
 /*knappene på formering og adopsjonsspørsmål*/
 .button {
     float: left;
-    border: 2px;
-    border-style: solid;
-    border-color: grey;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     min-width: 50px;
     text-align: center;
