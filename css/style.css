@@ -353,26 +353,16 @@
 
 /*knappene på formering og adopsjonsspørsmål*/
 
-.button {
-    float: left;
-    border: 2px;
-    border-style: solid;
-    border-color: grey;
-    border-radius: 20px;
-    min-width: 50px;
-    align: center;
-    padding: 0 40px;
-    margin: 5px 5px;
+p1 {
+  line-height: 1.4;
 }
 
-p,
-p1,
-p2,
-p3,
-p4,
-p5,
-p6 {
-    line-height: 1.6;
+p, p2, p3, p4, p5, p6 {
+  line-height: 1.6;
+}
+
+.authors p4 {
+  line-height: 1.4;
 }
 
 /* Små mobilenheter */
@@ -390,38 +380,47 @@ p6 {
     .bottomSection p {
         text-align: center;
         margin-bottom: 0;
-    }
-    p1 {
-        font-size: 20px;
-    }
-    p2 {
-        font-size: 15px;
-    }
-    p4 {
-        font-size: 20px;
-    }
-    p5 {
-        font-size: 20px;
-        font-style: italic;
-    }
-    p6 {
-        text-align: center;
-        font-size: 35px;
-        font-weight: bold;
-    }
-    h1 {
-        font-family: 'Bowlby One';
-        font-size: 55px;
-    }
-    h2 {
-        font-size: 40px;
-        font-family: 'Bowlby One';
-    }
-    /*750 000, 510 katter og " */
-    .big {
-        font-size: 50px;
-    }
-    .quote {
+      }
+
+      p1 {
+          font-size: 30px;
+      }
+
+      p2 {
+          font-size: 15px;
+      }
+
+      p4 {
+          font-size: 20px;
+      }
+
+      p5 {
+          font-size: 20px;
+          font-style: italic;
+      }
+
+      p6 {
+          text-align: center;
+          font-size: 35px;
+          font-weight: bold;
+      }
+
+      h1 {
+          font-family: 'Bowlby One';
+          font-size: 55px;
+      }
+
+      h2 {
+          font-size: 40px;
+          font-family: 'Bowlby One';
+      }
+
+      /*750 000, 510 katter og " */
+      .big {
+          font-size: 50px;
+      }
+
+      .quote {
         width: 70px;
     }
 }
@@ -487,72 +486,45 @@ p6 {
 /* Desktop */
 
 @media (min-width: 991px) {
-    /* FONTER */
-    p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-    /* Les mer om..*/
-    .bottomSection p {
-        text-align: center;
-        margin-bottom: 0;
-    }
-    /* tekst over bildene */
-    p1 {
-        font-size: 30px;
-        line-height: 1.6;
-    }
-    /*ingresser*/
-    p2 {
-        font-size: 25px;
-        line-height: 1.6;
-    }
-    h2 p2 {
-        font-size: 27px;
-        line-height: 1.6;
-    }
-    /*mindre ingresser*/
-    p3 {
-        font-size: 20px;
-        line-height: 1.6;
-    }
-    /* utdypende tekst*/
-    p4 {
-        font-size: 20px;
-        line-height: 1.6;
-    }
-    p4 b {
-        font-size: 25px;
-        line-height: 1.6;
-    }
-    /**/
-    /* p4 b {
-    font-size: 30px;
-  } */
-    p5 {
-        font-size: 30px;
-        font-style: italic;
-        line-height: 1.6;
-    }
-    p6 {
-        text-align: center;
-        font-size: 35px;
-        font-weight: bold;
-        line-height: 1.6;
-    }
-    h1 {
-        font-family: 'Bowlby One';
-        font-size: 100px;
-    }
-    h2 {
-        font-size: 60px;
-        font-family: 'Bowlby One';
-    }
-    /*750 000, 510 katter og " */
-    .big {
-        font-size: 120px;
-    }
-    a {
-        font-size: 18px;
-    }
+
+  /* FONTER */
+
+  /* tekst over bildene */
+  p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 27px;
+  }
+
+  /* Les mer om..*/
+  .bottomSection p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+
+  p1 {
+      font-size: 25px;
+  }
+
+  p2 {
+      font-size: 20px;
+  }
+
+  h1 {
+      font-family: 'Bowlby One';
+      font-size: 100px;
+  }
+
+  h2 {
+      font-size: 60px;
+      font-family: 'Bowlby One';
+  }
+
+  /*750 000, 510 katter og " */
+  .big {
+      font-size: 120px;
+  }
+
+  a {
+    font-size: 20px;
+  }
