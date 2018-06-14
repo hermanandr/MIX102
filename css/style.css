@@ -308,21 +308,26 @@
 .buttonBox {
  display: flex;
  flex-direction: row;
-  justify-content: center;
+ justify-content: center;
+ flex-wrap: wrap;
 }
 
 /*knappene på formering og adopsjonsspørsmål*/
 .button {
-  margin-right: 10px;
   float: left;
   border: 2px;
   border-style: solid;
   border-color: grey;
   border-radius: 20px;
-  width: 20%;
+  min-width: 50px;
   align: center;
+  padding: 0 40px;
+  margin: 5px 5px;
 }
 
+p, p1, p2, p3, p4, p5, p6 {
+  line-height: 1.6;
+}
 
 /* Små mobilenheter */
 
