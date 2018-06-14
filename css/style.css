@@ -275,6 +275,7 @@
 .videreLesing {
     display: flex;
     flex-direction: row;
+    float: center;
     top: 5%;
     left: 38%;
     z-index: 1;
@@ -518,6 +519,7 @@ p, p2, p3, p4, p5, p6 {
   h2 {
       font-size: 60px;
       font-family: 'Bowlby One';
+      letter-spacing: 1.2px;
   }
 
   /*750 000, 510 katter og " */
