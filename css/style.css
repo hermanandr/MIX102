@@ -128,8 +128,9 @@
 /* farget seksjon på bunnen */
 .bottomSection {
     /* background-color: #FAEBD7; */
-    background-color: #F0D9C7;
+    background-color: #3A3D40;
     padding-bottom: 0;
+    color: #FFFFFF;
 }
 
 
@@ -162,10 +163,6 @@
 /*klasse med tonebildet og katt som blir tatt vare på*/
 .img4 {
     max-width: 100%
-}
-
-.quote {
-  width: 90px;
 }
 
 /*class - mer om ID-merking*/
@@ -247,7 +244,6 @@
 .videreLesing {
   display: flex;
   flex-direction: row;
-  position: absolute;
   top: 5%;
   left: 38%;
   z-index: 1;
@@ -269,6 +265,9 @@
 }
 .lenker a {
   line-height: 27.8px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 /* grå tekst i faktabokser/svarbokser*/
@@ -386,6 +385,9 @@ p, p1, p2, p3, p4, p5, p6 {
           font-size: 50px;
       }
 
+      .quote {
+        width: 70px;
+      }
 
 }
 
@@ -394,6 +396,10 @@ p, p1, p2, p3, p4, p5, p6 {
 @media (min-width: 767px) {
     .basicSection {
         height: 1000px;
+    }
+
+    .quote {
+      width: 90px;
     }
 
     /* FONTER */
