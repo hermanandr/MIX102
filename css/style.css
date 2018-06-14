@@ -164,6 +164,10 @@
     max-width: 100%
 }
 
+.quote {
+  width: 90px;
+}
+
 /*class - mer om ID-merking*/
 .faktaboks {
     width: inherit;
@@ -189,6 +193,21 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.quotebox {
+  float: left;
+}
+
+.b20 {
+  width: 20%;
+  float: left;
+}
+
+.b80 {
+  width: 80%;
+  float: left;
+}
+
 
 /* hvert svar IKKE I HTML*/
 /* .svarbokser {
