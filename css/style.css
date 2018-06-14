@@ -75,6 +75,13 @@
     width: 50px;
 }
 
+.pilned {
+  width: 20px;
+  float: right;
+  padding: 5px;
+  padding-top: 7px;
+}
+
 /*formeringsbokser og formeringsspørsmål*/
 
 .centerBox {
@@ -149,12 +156,8 @@
     margin-bottom: 24px;
 }
 
-/* Byline */
 
-.authors {
-    padding: 50px;
-    text-align: left;
-}
+
 
 /* farget seksjon på bunnen */
 
@@ -178,24 +181,10 @@
   width: 20%;
 }
 
-.hvitekattepoter {
-  width: 50%;
-  height: 50%;
-}
-
 .centerFlex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.rightFlex {
-  width: 100%;
-  float: right;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   justify-content: center;
 }
 
@@ -427,10 +416,6 @@ p4,
 p5,
 p6 {
     line-height: 1.6;
-}
-
-.authors p4 {
-    line-height: 1.4;
 }
 
 /* Små mobilenheter */
