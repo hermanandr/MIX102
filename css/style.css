@@ -65,9 +65,8 @@
     position: absolute;
     color: #fff;
     text-align: center;
-    width: 80%;
-    top: 350px;
-    left: 20%;
+    top: 100px;
+    width: 100%;
 }
 
 .pil {
@@ -459,7 +458,7 @@ p6 {
     }
     h1 {
         font-family: 'Bowlby One';
-        font-size: 60px;
+        font-size: 38px;
     }
     h2 {
         font-size: 40px;

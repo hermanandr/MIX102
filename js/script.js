@@ -13,11 +13,10 @@ window.addEventListener('scroll', function() {
     var scrollTop = window.pageYOffset || window.scrollTop;
     var scrollPercent = scrollTop/scrollArea || 0;
 
-    title.style.top = 350 - scrollPercent*window.innerHeight/10 + 'px';
+    title.style.top = 100 - scrollPercent*window.innerHeight/10 + 'px';
 });
 
 // faktaboks
-
 $(document).ready(function(){
   var tekst = $("#faktaboks").text();
   $("#faktaboks").click(function(){
@@ -29,18 +28,6 @@ $(document).ready(function(){
       };
   });
 });
-
-// $(document).ready(function(){
-//   var title = $("#svarboks").text();
-//   $("#svarbokser").click(function(){
-//       $("#svar").slideToggle();
-//       if($("#svarbokser").text() == title){
-//         $("#svarbokser").text("JA");
-//       } else {
-//         $("#svarbokser").text(title);
-//       };
-//   });
-// });
 
 // Formeringsspørsmål - viser riktig svar og infotekst
 function showAnswer(buttonId){
