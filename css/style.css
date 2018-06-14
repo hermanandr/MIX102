@@ -27,7 +27,7 @@
 /*blå gradient bakgrunn */
 
 .gradient1 {
-    background: linear-gradient(rgb(38, 52, 63), white 70%);
+    background: linear-gradient(rgb(44, 68, 74), white 70%);
 }
 
 /* hvit tekst*/
@@ -98,7 +98,13 @@
 
 #answer1 {
     display: none;
+    font-size: 25px;
 }
+
+#answer1 a {
+  font-size: 25px;
+}
+
 
 #answer2 {
     display: none;
@@ -176,7 +182,7 @@
 }
 
 .kattepoter {
-  width: 20%;
+  width: 15%;
 }
 
 .centerFlex {
@@ -185,6 +191,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 /* Bakgrunnsbilder */
 
@@ -419,6 +426,7 @@ p6 {
 .authors p4 {
     line-height: 1.4;
 }
+
 
 /* Små mobilenheter */
 
