@@ -337,10 +337,6 @@ color: rgb(243, 187, 107);
     margin: 60px 0;
     padding: 20px 10px;
     box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.4s;
-    -o-transition: box-shadow 0.4s;
-    -moz-transition: box-shadow 0.4s;
-    -webkit-transition: box-shadow 0.4s;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -363,14 +359,17 @@ color: rgb(243, 187, 107);
 /*knappene på formering og adopsjonsspørsmål*/
 .button {
     float: left;
-    border: 2px;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* border: 2px;
     border-style: solid;
-    border-color: grey;
+    border-color: grey; */
     border-radius: 20px;
     min-width: 50px;
     text-align: center;
     padding: 8px 40px;
     margin: 5px 5px;
+    box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.3);
+
   }
 
 /*knappene på formering og adopsjonsspørsmål*/
