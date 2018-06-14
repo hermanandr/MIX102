@@ -27,7 +27,7 @@
 /*blå gradient bakgrunn */
 
 .gradient1 {
-    background: linear-gradient(rgb(38,52,63), white);
+    background: linear-gradient(rgb(38,52,63), white 70%);
 }
 
 /* hvit tekst*/
@@ -151,6 +151,10 @@
     /* background-color: #FAEBD7; */
     background-color: rgb(243, 187, 107);
     padding-bottom: 0;
+}
+
+.gul{
+color: rgb(243, 187, 107);
 }
 
 .footer {
