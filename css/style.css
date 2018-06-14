@@ -149,11 +149,15 @@
 
 .bottomSection {
     /* background-color: #FAEBD7; */
-    background-color: #3A3D40;
+    background-color: #FFFFFF;
     padding-bottom: 0;
-    color: #FFFFFF;
 }
 
+.footer {
+  color: #FFFFFF;
+  background-color: #3A3D40;
+  padding: 15px;
+}
 /* Bakgrunnsbilder */
 
 /* første bilde*/
