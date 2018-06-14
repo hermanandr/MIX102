@@ -27,7 +27,7 @@
 /*blå gradient bakgrunn */
 
 .gradient1 {
-    background: linear-gradient(#28445D, gray);
+    background: linear-gradient(rgb(38,52,63), white);
 }
 
 /* hvit tekst*/
@@ -376,7 +376,7 @@ p, p2, p3, p4, p5, p6 {
     /* tekst over bildene */
     p {
         font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
+        font-size: 23px;
     }
 
     /* Les mer om..*/
@@ -387,11 +387,11 @@ p, p2, p3, p4, p5, p6 {
 
 
     p1 {
-        font-size: 18px;
+        font-size: 21px;
     }
 
     p2 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     h1 {
@@ -411,9 +411,11 @@ p, p2, p3, p4, p5, p6 {
         font-family: 'Open Sans', sans-serif;
     }
 
-    a {
-      font-size: 16px;
+    .lenker a {
+      font-size: 14px;
+      padd
     }
+
 
       .quote {
         width: 50px;
@@ -469,8 +471,8 @@ p, p2, p3, p4, p5, p6 {
         font-family: 'Open Sans', sans-serif;
     }
 
-    a {
-      font-size: 20px;
+    p2 a {
+      font-size: 16px;
     }
 
     .quote {
