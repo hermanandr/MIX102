@@ -178,24 +178,10 @@ color: rgb(243, 187, 107);
   width: 20%;
 }
 
-.hvitekattepoter {
-  width: 50%;
-  height: 50%;
-}
-
 .centerFlex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.rightFlex {
-  width: 100%;
-  float: right;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   justify-content: center;
 }
 
