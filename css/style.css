@@ -27,15 +27,7 @@
 /*blå gradient bakgrunn */
 
 .gradient1 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     background: linear-gradient(rgb(38,52,63), white);
-=======
-    background: linear-gradient(#3A3D40, gray);
->>>>>>> e57f8f2def38de9830559d2e5e2c0fae0b5c8555
-=======
-    background: linear-gradient(rgb(62,86,95), white);
->>>>>>> f7e99ebca90b5fe69e15e78be045855007cd244c
 }
 
 /* hvit tekst*/
