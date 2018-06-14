@@ -526,7 +526,7 @@ p, p2, p3, p4, p5, p6 {
     }
     .lenker a {
         font-size: 14px;
-        padd
+        
     }
     .quote {
         width: 50px;
@@ -621,3 +621,4 @@ p, p2, p3, p4, p5, p6 {
     .quote {
         width: 90px;
     }
+}
