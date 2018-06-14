@@ -76,6 +76,13 @@
     width: 50px;
 }
 
+.pilned {
+  width: 20px;
+  float: right;
+  padding: 5px;
+  padding-top: 7px;
+}
+
 /*formeringsbokser og formeringsspørsmål*/
 
 .centerBox {
