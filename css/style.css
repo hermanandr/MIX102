@@ -359,8 +359,8 @@
     border-color: grey;
     border-radius: 20px;
     min-width: 50px;
-    align: center;
-    padding: 0 40px;
+    text-align: center;
+    padding: 8px 40px;
     margin: 5px 5px;
   }
 
