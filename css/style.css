@@ -58,9 +58,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -10;
+    background-image: url(../images/vidScreen.jpg);
 }
 
-.test {
+.wrapper {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -91,9 +92,9 @@
 
 /* Bounce-effekt på pil i topp */
 .bounce {
-    -moz-animation: bounce 3s infinite;
-    -webkit-animation: bounce 3s infinite;
-    animation: bounce 3s infinite;
+    -moz-animation: bounce 3s 2;
+    -webkit-animation: bounce 3s 2;
+    animation: bounce 3s 2;
 }
 @-moz-keyframes bounce {
 0%, 20%, 50%, 80%, 100% {
