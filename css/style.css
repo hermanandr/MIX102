@@ -160,7 +160,7 @@
     display: none;
     background-color: #757575;
     color: #fff;
-    
+
     padding: 24px;
     margin-top: -60px;
     border-bottom-right-radius: 10px;
@@ -179,10 +179,16 @@
 
 #answer2 {
     display: none;
+    font-size: 25px;
+}
+
+ol {
+    font-size: 20px;
 }
 
 #answer3 {
     display: none;
+    font-size: 25px;
 }
 
 #answer3 a {
@@ -342,43 +348,12 @@
     float: left;
 }
 
-/* hvert svar IKKE I HTML*/
-
-/* .svarbokser {
-    background-color: #F8F3CB;
-    border: 1px solid grey;
-    border-radius: 30px;
-    padding: 15px 5px 15px 5px;
-    margin: 15px;
-    width: 150px;
-    /* height: 70px; */
-
-/*color: #000;
-    text-align: center;
-    letter-spacing: 1px;
-    cursor: pointer;
-} */
-
 /* svaret som blir skal komme opp om ja, nei, jeg vil spre budskapet (funksjon ikke implementert)*/
 
 #svar {
     display: none;
     width: 80%;
 }
-
-/* "Jeg vil spre budskapet" IKKE I HTML*/
-
-/* .budskap {
-  background-color: #F3E8DE;
-  border: 1px solid grey;
-  border-radius: 30px;
-  padding: 10px 5px 10px 5px;
-  width: 340px;
-  color: #000;
-  text-align: center;
-  letter-spacing: 1px;
-  cursor: pointer;
-} */
 
 /* ikoner og lenker i bunn */
 
@@ -537,6 +512,11 @@ p, p2, p3, p4, p5, p6 {
     .quote {
         width: 50px;
     }
+
+    #answer3 a {
+      font-size: 15px;
+    }
+
 }
 
 /* Nettbrett */
@@ -584,6 +564,10 @@ p, p2, p3, p4, p5, p6 {
     }
     .quote {
         width: 70px;
+    }
+
+    #answer3 a {
+      font-size: 25px;
     }
 }
 
