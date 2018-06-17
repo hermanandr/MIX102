@@ -17,7 +17,7 @@
 <body>
     <section class="fullSection centerFlex">
         <div class="wrapper">
-            <video autoplay muted loop class="vidMain">
+            <video autoplay muted loop class="vidMain" id="video">
                 <source src="video/topVid.mp4" type="video/mp4">
             </video>
         </div>
@@ -46,7 +46,7 @@
         </div>
     </section>
 
-    <section data-w-id="48854942-1d18-93a6-cb21-02922c0bb651" class="basicSection img1" alt"Grå katt alene på gata">
+    <section data-w-id="48854942-1d18-93a6-cb21-02922c0bb651" class="basicSection img1" alt "Grå katt alene på gata">
         <div data-w-id="ec77f0ac-a61b-3948-6ddd-384d3cc59c6a" class="black">
             <div data-w-id="b3cc935c-3cd0-9ccf-9c4c-191b87bd4454" class="scrolltext container">
                 <div class="container">
@@ -55,8 +55,7 @@
                         <span class="big">
                             <b>750 000</b>
                         </span>
-                        <br> ID-merkede katter. I tillegg til disse kommer alle de hjemløse
-                        og eierløse kattene.</p>
+                        <br> ID-merkede katter. I tillegg til disse kommer alle de hjemløse og eierløse kattene.</p>
 
                     <div class="faktaboks" onclick="expand()">
                         <p2>
@@ -75,7 +74,8 @@
         </div>
     </section>
 
-    <section data-w-id="b1df903d-c403-1fd6-2c62-f4489f9640ec" class="basicSection img2" alt"Kattunge strekker poten mot en hånd">
+    <section data-w-id="b1df903d-c403-1fd6-2c62-f4489f9640ec" class="basicSection img2" alt
+        "Kattunge strekker poten mot en hånd">
         <div data-w-id="b1df903d-c403-1fd6-2c62-f4489f9640ed" class="black">
             <div data-w-id="b1df903d-c403-1fd6-2c62-f4489f9640ee" class="scrolltext container">
                 <p>I 2017 hjalp Dyrebeskyttelsen Bergen omtrent</p>
@@ -243,7 +243,8 @@
         <div class="pt pb container">
             <p2>
                 <b> Hvis man omplasser kattene i stedet for å hive de på dør vil man kanskje klare å få kontroll på de hjemløse
-                    kattene.</b>
+                    kattene.
+                </b>
                 <br>
                 <br>
                 <b> Tone Haugen reddet en katt og ønsker at enda flere vil gjøre det samme. Aller mest håper hun folk tenker
@@ -275,7 +276,7 @@
                 <div id="answer1">
                     <p>Fantastisk! Les mer om hvordan du kan adoptere en katt på
                         <a href="http://www.kattensvern.org/adoptere-en-katt">
-                        Kattens Vern sin hjemmeside! </a>
+                            Kattens Vern sin hjemmeside! </a>
                     </p>
                 </div>
                 <div id="answer2">
@@ -340,6 +341,14 @@
 
                 <script src="js/script.js" type="text/javascript"></script>
                 <script src="js/webflow.js" type="text/javascript"></script>
+
+                <!-- Automatisk avspilling av video på mobil -->
+                <script>
+                    var mobilevideo = document.getElementsByTagName("video")[0];
+                    mobilevideo.setAttribute("playsinline", "");
+                    mobilevideo.setAttribute("muted", "");
+                </script>
+
 
 </body>
 
